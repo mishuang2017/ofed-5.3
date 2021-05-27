@@ -1,0 +1,80 @@
+From 16056ca5e8e2709522727c6a1fa58a2c29f60066 Mon Sep 17 00:00:00 2001
+From: Ariel Levkovich <lariel@nvidia.com>
+Date: Tue, 13 Apr 2021 10:36:34 +0300
+Subject: [PATCH] net/mlx5: Fallback to uplink device if internal port not
+ supported
+
+In case device doesn't support internal port offload, use uplink
+device as source/destination device.
+
+NOTE: This will create a bypass to datapath rules involving
+internal ports and in case these rules have actions that change the
+packet, these actions will be bypassed as well.
+
+Issue: 2610571
+Change-Id: I5697890568764a3e9eb8b256ec6a0f94e4ee3c5b
+Signed-off-by: Ariel Levkovich <lariel@nvidia.com>
+---
+ drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun.c        | 3 +++
+ drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun_common.c | 6 +++++-
+ drivers/net/ethernet/mellanox/mlx5/core/eswitch_offloads.c | 2 +-
+ metadata/Ariel_Levkovich.csv                               | 1 +
+ 4 files changed, 10 insertions(+), 2 deletions(-)
+
+diff --git a/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun.c b/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun.c
+index 8bd0edafb..74dd1666c 100644
+--- a/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun.c
++++ b/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun.c
+@@ -768,6 +768,9 @@ int mlx5e_tc_tun_route_lookup(struct mlx5e_priv *priv,
+ 						  MLX5_ESW_INT_VPORT_INGRESS);
+ 		if (IS_ERR(int_port)) {
+ 			err = PTR_ERR(int_port);
++
++			if (err == -EOPNOTSUPP)
++				err = 0;
+ 			goto out;
+ 		}
+ 		attr->int_port = int_port;
+diff --git a/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun_common.c b/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun_common.c
+index acbe3b406..aed2906d4 100644
+--- a/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun_common.c
++++ b/drivers/net/ethernet/mellanox/mlx5/core/en/tc_tun_common.c
+@@ -788,8 +788,12 @@ attach_flow:
+ 
+ 	err = mlx5e_set_int_port_tunnel(priv, attr, e->out_dev,
+ 					e->route_dev_ifindex, out_index);
+-	if (err)
++	if (err == -EOPNOTSUPP) {
++		mlx5_core_dbg(priv->mdev, "int port offload not supported, using uplink device for encap route\n");
++		err = 0;
++	} else if (err) {
+ 		goto out_err;
++	}
+ 
+ 	flow->encaps[out_index].e = e;
+ 	list_add(&flow->encaps[out_index].list, &e->flows);
+diff --git a/drivers/net/ethernet/mellanox/mlx5/core/eswitch_offloads.c b/drivers/net/ethernet/mellanox/mlx5/core/eswitch_offloads.c
+index dcb1a9593..26068e209 100644
+--- a/drivers/net/ethernet/mellanox/mlx5/core/eswitch_offloads.c
++++ b/drivers/net/ethernet/mellanox/mlx5/core/eswitch_offloads.c
+@@ -3192,7 +3192,7 @@ mlx5_esw_get_int_vport(struct mlx5_eswitch *esw,
+ 	struct mlx5_flow_destination dest;
+ 	int err;
+ 
+-	if (!mlx5_eswitch_vport_match_metadata_enabled(esw))
++	if (!esw_src_port_rewrite_supported(esw))
+ 		return ERR_PTR(-EOPNOTSUPP);
+ 
+ 	spin_lock(&esw->offloads.int_vports_lock);
+diff --git a/metadata/Ariel_Levkovich.csv b/metadata/Ariel_Levkovich.csv
+index d13bd29bf..217fb2911 100644
+--- a/metadata/Ariel_Levkovich.csv
++++ b/metadata/Ariel_Levkovich.csv
+@@ -52,3 +52,4 @@ Change-Id=I172a348c7de204bcb610cc1795c4056323fc4470; subject=net/mlx5e: Prevent
+ Change-Id=I0ebc9634624dc60f2c31bb5488253831e62af537; subject=net/mlx5e: Check for action ptype when forwarding to int port; feature=internal_port; upstream_status=in_progress; general=;
+ Change-Id=I1addb779e90538c741364d6305bc2abf8d8a65c8; subject=net/mlx5e: Use dynamic alloc in prio hp config; feature=hairpin_packet_pacing; upstream_status=NA; general=;
+ Change-Id=I5d8b3e4a05b027428fda121fa1e8cda9ae63962e; subject=net/mlx5: CT: Add support for matching on ct_state inv and rel flags; feature=ct_mt; upstream_status=in_progress; general=;
++Change-Id=I5697890568764a3e9eb8b256ec6a0f94e4ee3c5b; subject=net/mlx5: Fallback to uplink device if internal port not supported; feature=internal_port; upstream_status=in_progress; general=;
+-- 
+2.21.0
+
