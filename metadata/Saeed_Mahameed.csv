@@ -1,0 +1,10 @@
+sep=;
+Change-Id=I3ff71e74a7d68e68cda45b7332cf384f7f832c30; subject=net/mlx5e: Calc vlan_tag_preset only once on xmit; feature=mlx5e_min_inline; upstream_status=ignore; general=;
+Change-Id=I40c5b4bd1e4230ffae1f65d1a4dbf216570c12b2; subject=net/mlx5e: Separate between netdev objects and mlx5e profiles initialization; feature=uplink_rep_redesign; upstream_status=accepted; general=upstream commit ID: 3ef14e463f6e, tag: v5.12-rc1;
+Change-Id=I55d7ac0643279295e11adc24dd93415058707c03; subject=net/mxl5e: Add change profile method; feature=uplink_rep_redesign; upstream_status=accepted; general=upstream commit ID: c4d7eb57687f, tag: v5.12-rc1;
+Change-Id=Iee900eaeafec955ed27454dca22640db6e452fd0; subject=net/mlx5e: Same max num channels for both nic and uplink profiles; feature=uplink_rep_redesign; upstream_status=in_progress; general=;
+Change-Id=I0a672c6eff58bd4f824d95a8bf820ad2be7a8980; subject=net/mlx5e: kTLS, Add missing dma_unmap in RX resync; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=If18898a3cde3fc7e22e5c564218b9e2f6839401e; subject=net/mlx5e: kTLS, Fix leak on resync error flow; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ica08c601506813a53a6844ef09700b2636c7e6cc; subject=net/mlx5e: kTLS, Avoid kzalloc(GFP_KERNEL) under spinlock; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I4d489f36f9cdf8f5ff073c5519ffa424d8f0b728; subject=net/mlx5e: mlx5e_fec_in_caps() returns a boolean; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Icd089786bf8e859aa0573a28f9adb618f6e01236; subject=net/mlx5: cmdif, Avoid skipping reclaim pages if FW is not accessible; feature=rebase; upstream_status=accepted; general=tag: v5.9;

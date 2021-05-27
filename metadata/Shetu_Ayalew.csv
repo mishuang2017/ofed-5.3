@@ -1,0 +1,16 @@
+sep=;
+Change-Id=Ibd8f2b448cdc211ca1ce60001af82456afcc2817; subject=IB/mlx5: Add HW counter called rx_dct_connect; feature=dct; upstream_status=in_progress; general=;
+Change-Id=I93f8e5f952d903a64ba1af90c4db7db6416c6cd0; subject=net/mlx5: Add DC trace commands; feature=dc_support; upstream_status=NA; general=;
+Change-Id=Ie3cd5b3d112765889582043ccde99f604cc87662; subject=IB/mlx5: Add DC tracer support; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I87b2740ef5c413fcb93be0a8b3cfc70b29c7381a; subject=mlx5_ifc: Add DC cnak requried structs; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I83af01d6b40975931a629eb464cdc972bcdc2f54; subject=IB/mlx5: Add DC cnak support; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I3ec13cf3825d5219985d8840d88288fcbaaa65a4; subject=IB/mlx5: Add DC CNAK sysfs support; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I4c7eea5bfe844bc93eb43b6c71ef19610fd83f3e; subject=IB/mlx5: Reduce DC connect QP and CQ depths; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I9cd2c6093c82b0f2f8e73e112a14e81af78d2507; subject=IB/mlx5: Add module parameter to control DC CNAK QP depth; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I379d03f329f1d8e17c6df37217ef9b09f79e2e82; subject=net/mlx5: Update HCA caps command interface; feature=dc_support; upstream_status=NA; general=;
+Change-Id=Ib1a761f82e09343e60947761b3255f28f0413ee9; subject=IB/mlx5: Split statistics variables from DC CNAK data structure; feature=dc_support; upstream_status=NA; general=;
+Change-Id=Ia504d5f3fde6362f6638518b1e9e864cae3b07d5; subject=IB/mlx5: Scale up DC CNAK capabilities in driver; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I6b7afce1db3e1568708ed583891d60869c1852df; subject=IB/mlx5: Add sysfs files related to DC CNAK; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I8b2bf879491fb9c51e62f5f31c2e4d270f34fc38; subject=IB/mlx5: post_send() signaled DC CNAK packets with respect to queue size; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I62899e3a92ffac65d80c0364dc43a444f0f3a5c6; subject=IB/mlx5: Counter for sent cnaks shows wrong value; feature=dc_support; upstream_status=NA; general=;
+Change-Id=I91ada19f6900abd3ebcff10a3f3cd6ff95c185fd; subject=IB/mlx: Fix destroy flow of DC CNAK QP resources; feature=dc_support; upstream_status=NA; general=;

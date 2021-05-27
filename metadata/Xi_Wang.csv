@@ -1,0 +1,2 @@
+sep=;
+Change-Id=I30201cd08c1faf6b297ca3cad38856f3d63d3c5c; subject=RDMA/core: Fix unsafe linked list traversal after failing to allocate CQ; feature=rebase; upstream_status=accepted; general=tag: v5.9;

@@ -1,0 +1,6 @@
+sep=;
+Change-Id=I16c054f0cbe12b7918027e9aa27c25541d3e5131; subject=IB/core: Resolve IP to MAC with ARP only when necessary; feature=ah_from_wc_noarp; upstream_status=in_progress; general=;
+Change-Id=If359d56caf5540654ff3c43e5a5b9665858bbb27; subject=IB/mlx5: Avoid hangs due to missing completion; feature=mlx5_ib_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I1de008eea6d06ed53fa937c2a19bce2d34544b4f; subject=IB/mlx5: Increase timeout of waiting to mmu notifier to complete; feature=mlx5_ib_bugs_in_review; upstream_status=NA; general=;
+Change-Id=I30808f79176b4b83a396e0f3991b2e00cd6d6751; subject=IB/CMA: Change timeout for CM connection establishment; feature=ib_core_bugs_in_review; upstream_status=NA; general=;
+Change-Id=Ia4f82ef24a5361b88fa066ed2b96f63796fed5df; subject=IB/mlx5: Add sysfs files to force traffic_class; feature=mlx5_force_tc; upstream_status=NA; general=;

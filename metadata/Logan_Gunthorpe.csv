@@ -1,0 +1,4 @@
+sep=;
+Change-Id=If133bc37ef952034bb6f2a006b4b228e6b7cdf96; subject=nvme-pci: Cleanup nvme_find_pdev_from_bdev; feature=nvmf_offload; upstream_status=in_progress; general=;
+Change-Id=I2637dc375d21da801f36d6d4f83ee2d1e6da7192; subject=nvmet-passthru: Reject commands with non-sgl flags set; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I68f0d206c82cd80a3394707485111bc745f08d35; subject=nvme: Use spin_lock_irq() when taking the ctrl->lock; feature=rebase; upstream_status=accepted; general=tag: v5.9;

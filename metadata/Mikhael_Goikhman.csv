@@ -1,0 +1,18 @@
+sep=;
+Change-Id=I34687b693ad618e87e7217faba91c18296359045; subject=net/mlx5e: Fix collision in debugfs files when namespaces are used; feature=mlx5_sysfs_ecn_mstdump; upstream_status=NA; general=;
+Change-Id=I947e420944c078ab24b86e23f5084d4c5cba11fd; subject=net/mlx5e: Complete implementation of set_pflag_per_channel_stats; feature=mlx5e_counter_groups; upstream_status=NA; general=;
+Change-Id=Ie9f8d843b3e1773ccb841374b2cf1e22992d8eb9; subject=net/mlx5e: Make RX-FCS and LRO / HW GRO mutually exclusive; feature=mlx5e_rxfcs_exclusive; upstream_status=NA; general=;
+Change-Id=I956c9918529924511d82f31abec4398c66f5083d; subject=net/mlx5e: TX, Fix calculation of l2 header len for multiple VLANs; feature=mlx5_en_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Ib7b62e0cac9d3ad4fb790821b10c0956c835a54b; subject=net/mlx5e: Fix setting autoneg on for older kernels; feature=mlx5_en_bugs_old_kernel; upstream_status=NA; general=;
+Change-Id=I4375033a981d74854c89f36e4f6f2332c7773f9c; subject=net/mlx5: Fix condition of creating crdump; feature=mlx5_dump_me_now; upstream_status=NA; general=;
+Change-Id=Ic5f29cda37e459689765422988b31f6c9faac875; subject=net/mlx5: Remove unused mlx5_core_health member recover_work; feature=mlx5_dump_me_now; upstream_status=NA; general=;
+Change-Id=If87cb09ba0deb56f557f74f4398e43610519e25c; subject=net/mlx5e: Fix mlx5e_fec_in_caps return values in bad flow; feature=mlx5e_fec_modes; upstream_status=in_progress; general=;
+Change-Id=I13cb2fc3377a6db3aedd9dbf6823887963c42683; subject=net/mlx5e: Adapt fixing leaks of page_pool resource; feature=mlx5e_perf_improvements; upstream_status=NA; general=;
+Change-Id=Ifa5f7996423bc8fe929338ba98a4badec722f98e; subject=BACKPORTS: Rework all to support XSK on older kernels; feature=backports; upstream_status=ignore; general=;
+Change-Id=Ib6638d118d0e084919c4b4d12fec9c84a0232ae2; subject=net/mlx5: Use mlx5_timecounter_ns instead of mlx5_timecounter_cyc2time; feature=cyc2time_offload; upstream_status=accepted; general=upstream commit ID:1436de0b9915, tag: v5.12-rc1;
+Change-Id=Ie2088c8d8abaa8d5873b9f841e646a66b4610480; subject=compat: Add net_prefetch functions; feature=backports; upstream_status=ignore; general=;
+Change-Id=I12b9503c3888d75d028e234e37f446f3c4bb06bb; subject=net/mlx5e: Support In-driver xmit_more feature with MPWQE; feature=in_driver_xmit_more; upstream_status=NA; general=;
+Change-Id=Idf57954bae0a2d14e4247fde278e9fa6331c81d7; subject=compat: Add __netdev_tx_sent_queue function; feature=backports; upstream_status=ignore; general=;
+Change-Id=I1642fac24b3a0d52af38d5e0329916c8e49a3c5b; subject=ofed_scripts: Cleanup and fix cma_roce_mode and cma_roce_tos; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I6434628c878e069392afc614ae786edb90140e20; subject=ofed_scripts: Fix use-count of rdma_cm after running cma_roce scripts; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I5b503f97be6a110c833f32333d61fba0fc211f7c; subject=net/mlx5e: Fix IPSEC stats; feature=mlx5_ipsec; upstream_status=accepted; general=upstream commit ID: 45c9a30835d8, tag: v5.11-rc6;

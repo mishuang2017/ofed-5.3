@@ -1,0 +1,2 @@
+sep=;
+Change-Id=I5b0b8ce7bd7e9b20224a7d9dbaf87fb03221cd7b; subject=net/mlx5e: Add CQE compression support for multi-strides packets; feature=cqe_zipping; upstream_status=in_progress; general=;

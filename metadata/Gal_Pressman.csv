@@ -1,0 +1,9 @@
+sep=;
+Change-Id=Iafccb4ac0477ed2f579cf414d7871fb9be7848f4; subject=mlx5e: core/en_debugfs.c added ethernet debugfs prints; feature=mlx5_sysfs_ecn_mstdump; upstream_status=NA; general=;
+Change-Id=I106205a04d8ba0ca92e8346b5e2f6811c48c6e26; subject=net/mlx5: Add infrastructure for PDDR register; feature=link_down_reason; upstream_status=in_progress; general=;
+Change-Id=I8179986217a064022e15c9f06d1f6837efbcaa81; subject=net/mlx5: Add PDDR register query functions; feature=link_down_reason; upstream_status=in_progress; general=;
+Change-Id=I6d8fdcf05fde5fad1845a15268b8ca9df899143d; subject=net/mlx5e: Expose link down reason through sysfs; feature=link_down_reason; upstream_status=NA; general=;
+Change-Id=Ic8fd27111f9d5ee2c054095fb5ae722999a81ca2; subject=net/mlx5e: Change PDDR string length limit; feature=link_down_reason; upstream_status=NA; general=;
+Change-Id=I45b3c4c5b0cc343cf44a9f64dd441ca7dc978cf6; subject=net/mlx5e: Add support for RSS hash function changes through sysfs; feature=mlx5e_hfunc_sysfs; upstream_status=NA; general=;
+Change-Id=Icff8551b03ebdee14671f2fddfe62a2fc26d3fee; subject=net/mlx5: Add resiliency for allocations on numas with no memory; feature=mlx5_core_bugs_in_review; upstream_status=NA; general=;
+Change-Id=Ied5e1735ebc8a56fe3d09b5488b4615b06542698; subject=RDMA/uverbs: Fix false error in query gid IOCTL; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;

@@ -1,0 +1,16 @@
+sep=;
+Change-Id=I6a28e949f0c6ace8fb371a036ebdcae4b2c4b935; subject=net/mlx5: Resiliency, avoid 2 completions on a polling command; feature=mlx5_en_bugs_in_review; upstream_status=NA; general=;
+Change-Id=I282a935060af62a7370b0447ea479686861acadf; subject=net/mlx5e: Hold measurements for net_dim in a dedicated struct; feature=mlx5_adaptive_moderation; upstream_status=in_progress; general=;
+Change-Id=I91aa07d634e2260022d0f7babe29a1aaabea474a; subject=net/mlx5e: Remove RX ACKs count from net_dim measurements; feature=mlx5_adaptive_moderation; upstream_status=in_progress; general=;
+Change-Id=I36a8b8068f161cb6f0ed3f4291d925532673a710; subject=RDMA/umem: Move to allocate SG table from pages; feature=backports; upstream_status=ignore; general=;
+Change-Id=I89316bd6032d0b821086953930ca93d6100d6307; subject=Configure: Fix the way build-linux.m4 gets release version; feature=backports; upstream_status=ignore; general=;
+Change-Id=Ide41ab15c3d5764859fa237b39b1db4b61d7706a; subject=ofed_scripts: use tty instead of consoletype; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I3e213185b2a48bca9e68321ba18a608afe1765f5; subject=ofed_scripts: Remove python2 dependency on RHEL8 and FC3X; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I9c844a0ab50484d3d749c4af4bd71840596467f5; subject=Makefile: Always build efa dummy module.; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I32393d48fb27e8449ce8f71af859d9f7c9c1d786; subject=ofed_scripts: Force python3 on SLES15; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Ide2df7c1703ce0f295c75297657d1675c78263d7; subject=interval_tree: Rename the exported symbols to special names; feature=backports; upstream_status=ignore; general=;
+Change-Id=Ie6d3217b11772cca5d5cccc41a52f8219087af48; subject=FIXUP: interval_tree: Rename the exported symbols to special names; feature=backports; upstream_status=ignore; general=;
+Change-Id=I5b1cea583e5e004a293e0750226d0a1ec3081428; subject=ofed-scripts: Fix the set operations in dcbnetlink; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Idb90b294fe4b25745c0c36420646262c68aa20e0; subject=ofed_scripts: Fix metadata checker; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I39696912cbeda6ebeaa4f2215ab36a48ff17aae2; subject=BACKPORTS: Fix tc_ct.c backport; feature=backports; upstream_status=ignore; general=;
+Change-Id=I07bae4005dfd98e0aa8c05b2a589f45cb907412c; subject=debian: Add (python | python3-distutils) as a build requirement; feature=ofed_scripts; upstream_status=ignore; general=;

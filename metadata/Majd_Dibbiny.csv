@@ -1,0 +1,13 @@
+sep=;
+Change-Id=Ic2dce26f04a650656d6540d4248e67d6d6cfbcc0; subject=net/mlx5_core: Query special contexts; feature=special_context; upstream_status=NA; general=;
+Change-Id=I9cf1ea0dad9e35576f1c47cc3134101a4f0b7ef3; subject=IB/mlx5: Update the local dma lkey; feature=special_context; upstream_status=NA; general=;
+Change-Id=I7239e83b9c5eef504e82da3070821d0616b8b38c; subject=IB/mlx5: Assign affinity for DCT and DCI in RoCE LAG mode; feature=mlx5_dc_roce_lag; upstream_status=NA; general=;
+Change-Id=I7cce69cb1e753d301fce8dabe2e9c054a4fd70dc; subject=IB/mlx5: Create DCT in LAG only when supported; feature=mlx5_dc_roce_lag; upstream_status=NA; general=;
+Change-Id=I74cc8e8466f85681067697edb02076656ebb6280; subject=RDMA: Backward compatibility for Lustre; feature=lustre_support; upstream_status=NA; general=;
+Change-Id=Iec9473d5f5555882ab99afc8d25f06ca64c53939; subject={IB, net}/mlx5: Fix setting RoCE congestion parameters in lag mode; feature=mlx5_ib_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Ifb040e774ce30d8866f4357706292c71b9d20003; subject=net/mlx5e: Priv flag to control per channel stats reporting; feature=mlx5e_counter_groups; upstream_status=NA; general=;
+Change-Id=I929447170aad1d54d475d116cfc000cd91d17fa7; subject=IB/mlx5: Adjust hop-limit for R-RoCE; feature=mlx5_ib_bugs; upstream_status=rejected; general=;
+Change-Id=I1ea167ba204dfb99f0b8eb03669b3348320ca863; subject=IB/uverbs: Take the port number from the QP; feature=ib_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Ied95d5a68f884491fbe234935f6ab4e24f8daafb; subject=net/mlx5_core: Update LAG tracker in LAG initialization; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I6df93e1ea255901736238f89d94cfab278f22e5e; subject=mlx5_core: E-switch, Add compat sysfs to control vport match mode; feature=vport_match_control; upstream_status=NA; general=;
+Change-Id=I1863107301404387ac7a677a7e3cb426f100d523; subject=net/mlx5_core: RoCE LAG recovery flow optimization; feature=mlx5_fast_fw_update; upstream_status=in_progress; general=;

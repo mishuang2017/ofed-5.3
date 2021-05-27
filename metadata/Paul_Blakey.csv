@@ -1,0 +1,27 @@
+sep=;
+Change-Id=I1f515d730a919859458ab2192a97237aa4e275ee; subject=compat: Add new devlink compat; feature=mlx5_devlink_sysfs_interface; upstream_status=NA; general=;
+Change-Id=Ib6449f759fee7141696cf0bde5fb68dda4eb7ba6; subject=compat: Move devlink compat from debugfs to sysfs.; feature=mlx5_devlink_sysfs_interface; upstream_status=NA; general=;
+Change-Id=Ic7637ec61f9a43bafdb59956da8a03964c53e60f; subject=net/mlx5: E-Switch, Move source port on reg c0 to the upper 16 bits; feature=mlx5_asap; upstream_status=in_progress; general=;
+Change-Id=I4a1a4c2de5e9a6bd3a4188d73344bad8f18cb936; subject=net/mlx5e: CT: Add debugfs offload tuples counter; feature=ct_mt; upstream_status=NA; general=;
+Change-Id=I72c5249beb484ff19d8a23ed98fee37813f2eb63; subject=net/mlx5: CT: Add support for mirroring; feature=ct_mirror; upstream_status=in_progress; general=;
+Change-Id=I75f786f08636a6b1222115f56675cb42cdcb057a; subject=net/mlx5: Create e2e cache prio and table; feature=e2e_cache; upstream_status=NA; general=;
+Change-Id=I7ecdd554129a7e0d4a405a5cd9e3f2bc929918ba; subject=net/mlx5: Offload e2e cache rules; feature=e2e_cache; upstream_status=NA; general=;
+Change-Id=Idd04bf0c778ff33b59d7442a853d1b23a87d3f9d; subject=net/mlx5e: Register to e2e cache block callbacks; feature=e2e_cache; upstream_status=NA; general=;
+Change-Id=Icb848cbb89ae15ce2fea147b5de9c31521b98aa2; subject=Revert "net/mlx5: E-Switch, Fix default encap mode"; feature=mlx5_asap_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Ica04455e6c4484cf38867c68432363e489244e44; subject=net/mlx5e: Fix CT rule + encap slow path offload and deletion; feature=ct_mt; upstream_status=accepted; general=upstream commit ID: 89e394675818, tag: v5.11-rc6;
+Change-Id=I3703843dcbe7b280db70fb41acd7b3f20c4da896; subject=net/mlx5: Remove unnecessary checks for slow path flag; feature=mlx5_asap; upstream_status=in_progress; general=;
+Change-Id=Ibcf5b21d0655695405feb07184920482289b3459; subject=net/mlx5: CT: Add support for matching on ct_state reply flag; feature=ct_mt; upstream_status=accepted; general=upstream commit ID: 6895cb3a95c9, tag: v5.11-rc6;
+Change-Id=I1783abaaf0ed646fc74100973ed2879cd3b9e746; subject=metadata/Paul_Blakey: Update; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Iee90b48c714262165aff945f3b7ed2ba96adc250; subject=Compat: Define TCA_FLOWER_KEY_CT_FLAGS_REPLY if not defined; feature=backports; upstream_status=ignore; general=;
+Change-Id=If5608d311f9625f38c732a7780ad498c6c717826; subject=BACKPORTS: Fix compilation for missing ct_metadata.orig_dir; feature=backports; upstream_status=ignore; general=;
+Change-Id=I47fbfc29b8bf6e50cb8622f8d41934c1f7224e0a; subject=net/mlx5: CT: Fix incorrect removal of tuple_nat_node from nat rhashtable; feature=ct_mt; upstream_status=accepted; general=upstream commit ID e2194a1744e8, tag: v5.11-rc5
+Change-Id=I1a45c1f50ba8200b20b6e3d04dd3ffbb0e1feea9; subject=net/mlx5: CT: Separate CT and CT-NAT tuple entries; feature=ct_mt; upstream_status=in_progress; general=;
+Change-Id=Idf3c52e5c965adf18cfbe07364e42609411deafc; subject=net/mlx5: CT: Add devlink compat param for ct_action_on_nat_conns; feature=ct_mt; upstream_status=NA; general=;
+Change-Id=I54c99a985e2b519d0ca64d08de49ed00780f27bb; subject=BACKPROTS: Fix backports for previous commits; feature=backports; upstream_status=ignore; general=;
+Change-Id=I076bcb14c54476081e3a34c67acebf020733022c; subject=compat: Check for devlink param support; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I6e94b1533ab29c9a9250c876dda72815d57c1339; subject=metadata/Paul_Blakey: Update; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I05db9bbfcb5d5a95c45831dca32317139c1c2b8e; subject=net/mlx5: CT: Control the number of offloaded connections via a devlink param; feature=ct_mt; upstream_status=in_progress; general=;
+Change-Id=Ic957890161fcb456c84c1bcd02ea290084deae42; subject=BACKPORTS: Fix for previous commit; feature=backports; upstream_status=ignore; general=;
+Change-Id=Ibcef9e425e2ad8230186d05e90de4c771fcb1693; subject=metadata/Paul_Blakey: Update; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I180c130a69280f73f34daf61c1195157b977256f; subject=fixup! net/mlx5: CT: Control the number of offloaded connections via a devlink param; feature=ct_mt; upstream_status=NA; general=;
+Change-Id=Ic9f2d2d82cf6035d06cf0b2328ae88656d35acff; subject=ofed_scripts/mlnx_bf_configure: Set default devlink param ct_max_offloaded_conns to 1000000; feature=ofed_scripts; upstream_status=ignore; general=;

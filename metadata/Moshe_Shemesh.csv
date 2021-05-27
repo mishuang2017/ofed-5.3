@@ -1,0 +1,9 @@
+sep=;
+Change-Id=I1d9f3f9dc236677a7c8e835793d54028276d9201; subject=net/mlx5: Avoid access command output after teardown; feature=mlx5_core_bugs; upstream_status=ignore; general=;
+Change-Id=I34fea4dede46236064c7d7ce50faae525014d3ad; subject=net/mlx5: Add functions to set/query MFRL register; feature=sub_1_sec_fw_upgrade; upstream_status=accepted; general=upstream commit ID: 3180472f582b, tag: v5.10-rc1;
+Change-Id=I40b8a414ace3596ff4fa24639d46b456b6a36654; subject=net/mlx5: Set cap for pci sync for fw update event; feature=sub_1_sec_fw_upgrade; upstream_status=accepted; general=upstream commit ID: e7f4d0bcb8da, tag: v5.10-rc1;
+Change-Id=I5db8fc02c54b23ff15cf7637842b662beec87626; subject=net/mlx5: Handle sync reset request event; feature=sub_1_sec_fw_upgrade; upstream_status=accepted; general=upstream commit ID: 38b9f903f22b, tag: v5.10-rc1;
+Change-Id=I64b74da0a22851eebfba2c2cfc3e145fda4a658d; subject=net/mlx5: Handle sync reset now event; feature=sub_1_sec_fw_upgrade; upstream_status=accepted; general=upstream commit ID: eabe8e5e88f5, tag: v5.10-rc1;
+Change-Id=Ie1450fc12c5d6dbf0b826a93cffd24897b94376f; subject=net/mlx5: Handle sync reset abort event; feature=sub_1_sec_fw_upgrade; upstream_status=accepted; general=upstream commit ID: 7dd6df329d4c, tag: v5.10-rc1;
+Change-Id=I4406a6b0229980f657c6507bb146180304a7581f; subject=net/mlx5: Add support for fw live patch event; feature=sub_1_sec_fw_upgrade; upstream_status=accepted; general=upstream commit ID: 2d69356752ff, tag: v5.10-rc1;
+Change-Id=I8a3a095bf4067b08ba1a3e52dd0d0b7585053626; subject=net/mlx5e: Check tunnel offload is required before setting SWP; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: e1c3940c6003, tag: v5.12-rc1;

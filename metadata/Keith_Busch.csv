@@ -1,0 +1,6 @@
+sep=;
+Change-Id=Id0e3dfd1232c696dd2f96dd256b5041cb9ec2106; subject=nvme: skip noiob for zoned devices; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=If63b5db2e42d9a9ff4195332ccc2d8406e8781c7; subject=nvme: fix controller instance leak; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I5387079fe2a400540f4e73f82997d0edfe17b265; subject=nvme: only use power of two io boundaries; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I68ef6f506915e7bd8fc236ee7f1b21771342f76e; subject=nvme: return errors for hwmon init; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Id2d7ea7498aa80132dc7a8e018d69fead6a43369; subject=Revert "nvme-pci: remove last_sq_tail"; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;

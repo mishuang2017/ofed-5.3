@@ -1,0 +1,16 @@
+sep=;
+Change-Id=I755a77db718a92055a63ae8ec48eb9c1eb686488; subject=IB/core: Add mcion support to mst dump; feature=mlx5_sysfs_ecn_mstdump; upstream_status=NA; general=;
+Change-Id=Ida318815f03e0e15327c47368f20e0819bedc2c7; subject=net/mlx5e: Update ethtool dump register map; feature=mlx5_sysfs_ecn_mstdump; upstream_status=NA; general=;
+Change-Id=I13aaae33c3faebd616f62e508e7bc3d1d1052cf7; subject=mlx5/core: Restore IB guid/policy for virtual functions; feature=restore_ib_guid; upstream_status=in_progress; general=;
+Change-Id=I3f7734f80a34fcd7d96e84cb4a3b04557e6d657a; subject=mlx5/core: Add new module parameter to choose whether to probe VFs when mlx5_core is loaded; feature=vf_startup; upstream_status=NA; general=;
+Change-Id=Ie3a05234f550c395cb123e2db8c762f2821f3de2; subject=net/mlx5: Use netdev_queue_attribute for tx map sysfs; feature=mlx5e_pp_special_queue; upstream_status=NA; general=;
+Change-Id=I6a6a8b3680f1c3c1a616cb609500d3b825641b9c; subject=net/mlx5: Use explicit bit to indicate enablement of tunnel; feature=mlx5_core_bugs_in_review; upstream_status=NA; general=;
+Change-Id=I144cadfd3b5c7a85a468bddce62a7862d57f9f13; subject=mlx5/core: Use less aggressive warning when host PF is holding FW page; feature=mlx5_bf; upstream_status=in_progress; general=;
+Change-Id=I30b876f09989b9fdc4f43554f11e85acb0f659fc; subject=net/mlx5: E-Switch, Early bail out from switchdev mode if VF is enabled; feature=mlx5_bf; upstream_status=NA; general=;
+Change-Id=I26fddca58682e38c3fecb977ad29edf48ea02b41; subject=net/mlx5: Check eswitch manager for all relevant FS command; feature=mlx5_bf; upstream_status=NA; general=;
+Change-Id=I6a6f007035bb11f196f9df222360a099d3a9caa9; subject=net/mlx5: E-Switch, Have vport placeholder for ECPF eswich manager; feature=mlx5_bf; upstream_status=NA; general=;
+Change-Id=I037d5d2b99d2f01f932918ce08a5793406b8897f; subject=mlx5/core: E-Switch, Create ACL flow table for ECPF in offload mode; feature=mlx5_bf; upstream_status=in_progress; general=;
+Change-Id=I530f9ce1f76a8f72c750426aa1b910e11b6973f6; subject=net/mlx5: DR, Reduce print level for FT chaining level check; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Ida7437fd0b6a48225c2f815b6272921777080812; subject=IB/mlx5: Support querying esw functions from devx; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=Ib24bc83aa89d7f05cc903f447b8b1af7e2c3347a; subject=net/mlx5: E-Switch, Match vport rather than metadata in ft_offloads; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I6135381d88619cecbf19d99ad03dd6e077c4d3e4; subject=net/mlx5: E-Switch, Add default drop rule in ft_offloads; feature=mlx5_core_bugs; upstream_status=in_progress; general=;

@@ -1,0 +1,5 @@
+sep=;
+Change-Id=Ic63cc842cf09a363db7e5975b1ed04b3f2aed20c; subject=net/mlx5: Report PCIe status in dmesg; feature=mlx5_pci_status_report; upstream_status=NA; general=;
+Change-Id=I6a33e4b928e1a3eadddc3aea38718b822fbb02fd; subject=net/mlx5: Remove warnings when fail to query PCIe chain status; feature=mlx5_pci_status_report; upstream_status=NA; general=;
+Change-Id=Ibb95fb608372fea31b85730bc230da134bf83585; subject=ofed_scripts/mlnx_tune: Fix support for SLES OS; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I4c0263acc8e43000ab09ddea65b211e56529c1b5; subject=ofed_scripts/mlnx_tune: Show relaxed ordering state for each PCIe device; feature=ofed_scripts; upstream_status=ignore; general=;

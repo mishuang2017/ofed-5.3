@@ -1,0 +1,13 @@
+sep=;
+Change-Id=I9a7a2a4451d55fc34d51657b0f8d698f78f3cec9; subject=net/mlx5e: Add support for XDP TX HW checksum offload; feature=tx_xdp_hw_checksum; upstream_status=in_progress; general=;
+Change-Id=Icdf5f7c80bd1248ae041d97f1c5878221f7d98cf; subject=net/mlx5e: Add TX CQE compression support; feature=cqe_zipping; upstream_status=NA; general=;
+Change-Id=Ia6a796d2766aa9f050d6619ef6e7040a8f1f3032; subject=net/mlx5e: Fix return status when setting unsupported FEC mode; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: 2608a2f831c4, tag: v5.9;
+Change-Id=Ib9c9c1a3b3d75d973eb8da69f9be03acbb98e849; subject=net/mlx5e: In-driver xmit_more also when batching skbs not supported; feature=in_driver_xmit_more; upstream_status=NA; general=;
+Change-Id=Ia50a95278c3b1f13635b61a16372ca09afb1bba4; subject=net/mlx5e: Control flag for skb In-driver xmit_more; feature=in_driver_xmit_more; upstream_status=NA; general=;
+Change-Id=Ie88b122b93e44cd7f19a4f104f87d5fc495c8336; subject=net/mlx5: Restore VGT+ sysfs support; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=Iea6af488a23488e55575f4767211af1efebd6d83; subject=net/mlx5: Add mlx5_ptp_find_pin function; feature=backports; upstream_status=ignore; general=;
+Change-Id=Iccb3a98df4a42f212425eeca80ee5196a0d4934f; subject=net/mlx5: Add SRIOV QinQ VST support; feature=mlx5_qinq_vst; upstream_status=NA; general=;
+Change-Id=I36afcac0b00cb20052f583cdb56db3046572eb23; subject=net/mlx5: Enable VST with QinQ option by vport_context; feature=mlx5_qinq_vst; upstream_status=NA; general=;
+Change-Id=I1f78da802ee37c4159a3ee902d018f536ed18ff3; subject=net/mlx5: Add QinQ VST sysfs support; feature=mlx5_qinq_vst; upstream_status=NA; general=;
+Change-Id=I406f556e05dc76130c7f8d02394fb470355aca45; subject=net/mlx5: Reset ACL before counter create; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=Ie1079912b110c6c752484fcfd777820c818c9d71; subject=net/mlx5e: Fix SWP offsets when vlan inserted by driver; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: b544011f0e58, tag: v5.11-rc3;

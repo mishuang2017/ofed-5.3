@@ -1,0 +1,8 @@
+sep=;
+Change-Id=Ifa88bc5443d293f2405b077a9aca4064b1691a31; subject=drivers: Silence pr_fmt redefined warnings; feature=rebase; upstream_status=NA; general=;
+Change-Id=I8220183eaf2abb14d834586c23b353e1dc00458b; subject=IB/ipoib: Print a warning when Connected Mode is not supported; feature=ipoib_cm_prints; upstream_status=NA; general=;
+Change-Id=I6bb770afb8e7fa452a9074b00c5e81faab7bb086; subject=udev rules/systemd: Take interface name from $name; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I012a02f9c4ba19c8655ab055a17a3f91fbd76f92; subject=net/mlx5e: Fix using wrong stats_grps in mlx5e_update_ndo_stats(); feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I385a2bb5026c5b3e02bcd06d9f27325bcfab1269; subject=spec: Depend on %{_bindir}/python3 rather than just python3; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Iaaaed60797fe1cb573cf5629d484876c45c4bf4c; subject=openibd: Load mlx5_ib first to W/A driver load in Containers; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I2334be2044aa98dfc5b146559fd6887d6dd967db; subject=configure: Add --without-xdp option; feature=ofed_scripts; upstream_status=ignore; general=;

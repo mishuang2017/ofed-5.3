@@ -1,0 +1,6 @@
+sep=;
+Change-Id=Ieb54d207e7d0e7157b6104215b85b2c17e65530d; subject=mlnx_qos: Support default priority assignment; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Iba38ab97d95a034eeb2d94744449a8397f0e3f84; subject=mlnx_qos: Allow repeating the --dscp2prio command; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I259290f8e34e756e18a09dc57f16ac0637e87be1; subject=mlnx_qos: Add flush command to dscp2prio; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Ib5d418128d8580da623537b6343afe721c803f6a; subject=mlnx_qos: Handle total port buffer size specially; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Id7ea66370cde8b48d293243eff75ae71fe88758e; subject=mlnx_qos: Support cable lengths of up to 0xffff; feature=ofed_scripts; upstream_status=ignore; general=;

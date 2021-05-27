@@ -1,0 +1,16 @@
+sep=;
+Change-Id=I4e7af33b4701942f367b7c5029f2c59917181229; subject=net/mlx5e: Move CQ create/delete inside RQ create/delete; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I736828d8bc9576e420debdcbec070910a400896e; subject=net/mlx5e: Implement flowtables to insert pet header; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I45831f236eaf0dd998096fc7f12f9e3bb41bbc27; subject=net/mlx5e: Implement xarray based metadata lookup to update skb; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I454becd9564c3a20c084249c1a06c9ed4d8b5195; subject=net/mlx5e: Bypass representor RQ and its CQ creation/deletion; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I07549f5628660fa1217ed168b74def395588efd3; subject=net/mlx5e: Do not allow ethtool to set/get rep rx properties; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I213639f3f6bd6ab818b24b8f35238a445af73fda; subject=Backports: Fix backports; feature=backports; upstream_status=ignore; general=;
+Change-Id=I94169656db8e3d7b84f32b1151802e84bdb0bbcb; subject=BACKPORTS: Fix Makefile and en_txrx.c backports; feature=backports; upstream_status=ignore; general=;
+Change-Id=I1441ed62ac5533d15a6599da4bab0417105d759c; subject=net/mlx5e: E-Switch, let user enable or disable PET header insertion.; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I817577bc9242346c0a6b83d2cb77f05a16f010d9; subject=Backports: Fix backports; feature=backports; upstream_status=ignore; general=;
+Change-Id=Ia28d121bf852deba8a5955e74cb55d1b0b2cbfec; subject=net/mlx5e: Reserve and use same uplink metadata across ports; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=Idcd27e8975eea23abe2e1b24e06fcf22cd80b225; subject=Backports: Fix backports; feature=backports; upstream_status=in_progress; general=;
+Change-Id=If1dfe025c21a0a82e54f255e8f3e04c83923010f; subject=ofed_scripts/mlnx_bf_configure: Enable shared rq mode; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I9b62ca5b31b72307015766787d3dd3799838cba2; subject=net/mlx5e: Temporarily allow shared rq testing on cx6dx; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=Ic890eb5bff5caba7a771960547dc1f2fbc886e59; subject=net/mlx5e: Block shared rq testing on cx6dx.; feature=mlx5e_shared_rq; upstream_status=in_progress; general=;
+Change-Id=I09a555bcba9669069c00d827640a18468673c55a; subject=ofed_scripts/mlnx_bf_configure: Add conf file to toggle shared rq feature; feature=ofed_scripts; upstream_status=ignore; general=;

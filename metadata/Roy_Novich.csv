@@ -1,0 +1,13 @@
+sep=;
+Change-Id=Ic395bb875e7a4d1f037a85605c1e713834a63c65; subject=REBASE: Fix tclass_update_qp implementation; feature=mlx5_force_tc; upstream_status=NA; general=;
+Change-Id=I7d71cfd76107a2ade6b41a76469138c42a054397; subject=BACKPORTS: fix static checks; feature=backports; upstream_status=ignore; general=;
+Change-Id=I5e852c39d7276b9b28eafb8959e0c239f9975f7f; subject=BACKPORTS: Remove allways define HAVE_IEEE_DCBNL_ETS; feature=backports; upstream_status=ignore; general=;
+Change-Id=I00cf7aded777ca5461472adc67acf45e0242e357; subject=BACKPORTS: Remove never define HAVE_DEVLINK_HAS_ESWITCH_IPSEC_MODE_SET; feature=backports; upstream_status=ignore; general=;
+Change-Id=I01d362272820eaaa5d5df6ff41e65e4687894a3d; subject=BACKPORTS: backports for 5.9 GA changes; feature=backports; upstream_status=ignore; general=;
+Change-Id=I012aed497d0377534558e4944c53d82f9558a84c; subject=ofed_scripts: gen-compat-config.sh old kernels clean; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Ic7f76c7283fcaacac20babda83d362c6e7b24722; subject=BACKPORTS: Remove unused config HAVE_LIST_FOR_EACH_ENTRY_RCU_4_PARAM; feature=backports; upstream_status=ignore; general=;
+Change-Id=I97f8eb40fbf8c3c87cd3115c671aa34a5f2b6d9d; subject=BACKPORTS: 5.10; feature=backports; upstream_status=ignore; general=;
+Change-Id=Idc3530fdaf73ba32330123812c9a8b20553d7498; subject=BACKPORTS: Open configure SUPPORTED to 5.10; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I25fde88d3a892c80a8453486c8a96f9c3f1059e8; subject=BACKPORTS: Block XSK zero copy for 5.10; feature=backports; upstream_status=ignore; general=;
+Change-Id=I82266cb85686e74d3ad07e3d11add18aef36eea2; subject=MEMTRACK: Abandon lower than 3.10 kernels support code; feature=backports; upstream_status=ignore; general=;
+Change-Id=Ifddf690c572242e764155a47c2efd5cc3f5adeca; subject=BACKPORTS: Fix memory leak when not unique name Pkey created; feature=backports; upstream_status=ignore; general=;

@@ -1,0 +1,10 @@
+sep=;
+Change-Id=Ida5364be92c69f09217e4013da378281a7e909bf; subject=net/mlx5: FPGA, Add client driver interface; feature=fpga; upstream_status=ignore; general=;
+Change-Id=Id1d60515ce8e7f6abe90f1d28bd96b97ae328b40; subject=net/mlx5: FPGA, TLS, Example, qp_type values; feature=fpga; upstream_status=ignore; general=;
+Change-Id=I9326679cd0bd658ae013efba68d4d503188cb277; subject=net/mlx5_core: Add FPGA shell QP; feature=fpga; upstream_status=ignore; general=;
+Change-Id=I34ee1219b045662f6a1d3e43da5954b456a84088; subject=net/mlx5_core: Add FPGA client data get/set routines; feature=fpga; upstream_status=ignore; general=;
+Change-Id=I91b4829688979e3076f51d90c5bb8e5633421f67; subject=net/mlx5: FPGA, add client interface, transactions, shell counters; feature=fpga; upstream_status=ignore; general=;
+Change-Id=Ied533123fa441e5af3cf7696600e0b6fb6fb7404; subject=net/mlx5: FPGA, added mlx5_fpga_tools module; feature=fpga; upstream_status=ignore; general=;
+Change-Id=Ib01d25eef753c2cde46d6f5ec9ec6d39e993c489; subject=net/mlx5: FPGA, Add xfer budget to avoid mapping same page too many times; feature=fpga; upstream_status=ignore; general=;
+Change-Id=Ifd14c55ba79e74043fa7f52e3219385301d04c1a; subject=net/mlx5e: IPSec, Add ESP v4 flow-steering via PET; feature=mlx5_ipsec; upstream_status=in_progress; general=;
+Change-Id=Iee22311faafb1503ad7aaac3dbc25e0cf4163c4f; subject=net/mlx5e: IPSec, Add ESP v6 flow-steering via PET; feature=mlx5_ipsec; upstream_status=in_progress; general=;

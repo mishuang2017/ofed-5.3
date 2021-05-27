@@ -1,0 +1,16 @@
+sep=;
+Change-Id=I0b20257322cea5ba7945bb602ae46db95bb5bf06; subject=RDMA/mlx5: Set port state to NOP for invalid port_num; feature=mlx5_ib_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Icdc3c7fd8840a9bcdc8b96c3520da1669a4762ed; subject=net/mlx5: E-Switch, Export API to check whether a vport being manager_vport; feature=mlx5_asap; upstream_status=in_progress; general=;
+Change-Id=Idbd79eb958683db9b8d5b4883e8a7bd6c1a983b2; subject=net/mlx5: E-Switch, Setup all vports' metadata to support peer miss rule; feature=mlx5_single_fdb_lag; upstream_status=accepted; general=upstream commit ID: fc99c3d6371c, tag: v5.10-rc1;
+Change-Id=I1f0b4b4342ed30346407c10b031046471c907d01; subject=net/mlx5: E-Switch, Exclude query_other_hca_cap_roce on SF vports; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=Iab6168618698ebeba9090d7e1f25e3a63a5f2edc; subject=net/mlx5: E-Switch, Do not enable vports again; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=I0bb09246b3c11befff6dc968e8d9ab5c09beee0a; subject=net/mlx5: E-Switch, Add SF vport, vport-rep support; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=I147b7b3befe1f5b2134ab02e2da1754505a75bc4; subject=net/mlx5: Add support for mediated devices in switchdev mode; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=Iaf5aaadd7056c40823c386635a3a15657879549b; subject=net/mlx5: E-Switch, Dedicated metadata for uplink vport; feature=mlx5_core_bugs; upstream_status=accepted; general=upstream commit ID: 406493a52f48, tag: v5.10-rc1;
+Change-Id=Ieec9ce0b7fabd2bd42dd87db04305669ad962c7b; subject=net/mlx5: Fix deletion of duplicate rules; feature=mlx5_core_bugs; upstream_status=accepted; general=upstream commit ID: 465e7baab6d9, tag: v5.10-rc3;
+Change-Id=Ic53c0e875d84d4a829efe02c8a53016c9dc0ecd2; subject=net/mlx5e: Reduce hairpin_tbl size; feature=mlx5_sfs; upstream_status=NA; general=;
+Change-Id=If94bc9200a34d5ed0b670193822e1b153fbac08d; subject=net/mlx5e: Dynamic alloc vlan table for netdev when needed; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=Ie2cdc73eed01e793be888aee9a8ae9bf64f2a53b; subject=net/mlx5e: Dynamic alloc arfs table for netdev when needed; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=I109e807ceec17b7b8dcd2ce1e9385e7f964e9dd1; subject=BACKPORTS: mlx5e_priv memory reduction; feature=backports; upstream_status=ignore; general=;
+Change-Id=I3110c52d2d1ba1c92005da1db26398fcbca961f1; subject=net/mlx5e: Use different profiles max_nch getter for resource allocations; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=I394009cbfffe145a664139053bc8a54423d7cb2d; subject=BACKPORTS: mlx5e_profile dynamic allocation; feature=backports; upstream_status=ignore; general=;

@@ -1,0 +1,17 @@
+sep=;
+Change-Id=If62667b74549278416475db318501ea1d8ca2d6f; subject=nvmet-rdma: automatic listening port re-activation; feature=nvmf_offload; upstream_status=in_progress; general=;
+Change-Id=I4214f89ae841e1e3ce2221a5f12d037bb70ec87b; subject=nvmet: fix a memory leak; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I2ff190523cc65e7a8f0bf05913fd021cd4a7d710; subject=nvme-fabrics: don't check state NVME_CTRL_NEW for request acceptance; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I6d9a0aff2b755dc386ecad2f891183b9519b4b5b; subject=nvme: have nvme_wait_freeze_timeout return if it timed out; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I87b163e759c1bc93c1a8443a230d5de183db9189; subject=nvme-tcp: serialize controller teardown sequences; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I9586b683ddaf91a9095dbed54d8af016ed69fc87; subject=nvme-tcp: fix timeout handler; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I9395c8dc43026c3ccb83a49d1fd9c29dedeb7bbf; subject=nvme-tcp: fix reset hang if controller died in the middle of a reset; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Idd9a1d3af9b6490a2a3ba6ca56a377d1871316ff; subject=nvme-rdma: serialize controller teardown sequences; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I0e36bed9ec451e0b34f4c7817ea72157f861bdb4; subject=nvme-rdma: fix timeout handler; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ic4ebc27a9fd0f3fbcf4be663499a209ad83c15bb; subject=nvme-rdma: fix reset hang if controller died in the middle of a reset; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ie44d5b8b3bb4f8dd5faff8d8464fa5136a0f1958; subject=nvme: Fix NULL dereference for pci nvme controllers; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ie06f43d212c0d80506ec11dc069a958227c6fcaf; subject=nvme-fabrics: allow to queue requests for live queues; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I5a63b1bc695eadbaca8f005c3cd3a20984f43c82; subject=IB/isert: Fix unaligned immediate-data handling; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ibf80c65ac9e7bdc2f69a2e5068051408f02871b8; subject=nvme-rdma: avoid repeated request completion; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=I12d7c3be6877bfe55153a0da98d17f1293cf17fe; subject=nvme-tcp: avoid repeated request completion; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=I964ee4a4c03ef4a2f2e618a121eb51593ba79a34; subject=nvme: fix incorrect behavior when BLKROSET is called by the user; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;

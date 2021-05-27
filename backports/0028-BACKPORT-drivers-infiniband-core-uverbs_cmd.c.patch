@@ -1,0 +1,72 @@
+From: Valentine Fatiev <valentinef@mellanox.com>
+Subject: [PATCH] BACKPORT: drivers/infiniband/core/uverbs_cmd.c
+
+Change-Id: I53e8ef5ff89f7422038c0213879ffd4496442432
+---
+ drivers/infiniband/core/uverbs_cmd.c | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+diff --git a/drivers/infiniband/core/uverbs_cmd.c b/drivers/infiniband/core/uverbs_cmd.c
+index xxxxxxx..xxxxxxx 100644
+--- a/drivers/infiniband/core/uverbs_cmd.c
++++ b/drivers/infiniband/core/uverbs_cmd.c
+@@ -223,6 +223,10 @@ int ib_alloc_ucontext(struct uverbs_attr_bundle *attrs)
+ 	ucontext = rdma_zalloc_drv_obj(ib_dev, ib_ucontext);
+ 	if (!ucontext)
+ 		return -ENOMEM;
++#ifndef HAVE_MMU_NOTIFIER_OPS_HAS_FREE_NOTIFIER
++	mutex_init(&ucontext->per_mm_list_lock);
++	INIT_LIST_HEAD(&ucontext->per_mm_list);
++#endif
+ 
+ 	ucontext->res.type = RDMA_RESTRACK_CTX;
+ 	ucontext->device = ib_dev;
+@@ -246,10 +250,12 @@ int ib_init_ucontext(struct uverbs_attr_bundle *attrs)
+ 		goto err;
+ 	}
+ 
++#ifdef HAVE_CGROUP_RDMA_H
+ 	ret = ib_rdmacg_try_charge(&ucontext->cg_obj, ucontext->device,
+ 				   RDMACG_RESOURCE_HCA_HANDLE);
+ 	if (ret)
+ 		goto err;
++#endif
+ 
+ 	ret = ucontext->device->ops.alloc_ucontext(ucontext,
+ 						   &attrs->driver_udata);
+@@ -262,15 +268,22 @@ int ib_init_ucontext(struct uverbs_attr_bundle *attrs)
+ 	 * Make sure that ib_uverbs_get_ucontext() sees the pointer update
+ 	 * only after all writes to setup the ucontext have completed
+ 	 */
++#ifdef HAVE_SMP_LOAD_ACQUIRE
+ 	smp_store_release(&file->ucontext, ucontext);
++#else
++	smp_wmb();
++	file->ucontext = ucontext;
++#endif
+ 
+ 	mutex_unlock(&file->ucontext_lock);
+ 	up_read(&file->hw_destroy_rwsem);
+ 	return 0;
+ 
+ err_uncharge:
++#ifdef HAVE_CGROUP_RDMA_H
+ 	ib_rdmacg_uncharge(&ucontext->cg_obj, ucontext->device,
+ 			   RDMACG_RESOURCE_HCA_HANDLE);
++#endif
+ err:
+ 	mutex_unlock(&file->ucontext_lock);
+ 	up_read(&file->hw_destroy_rwsem);
+@@ -3302,7 +3315,11 @@ static int __uverbs_create_xsrq(struct uverbs_attr_bundle *attrs,
+ 	struct ib_srq                   *srq;
+ 	struct ib_srq_init_attr          attr;
+ 	int ret;
+-	struct ib_uobject *xrcd_uobj;
++#ifndef uninitialized_var
++	struct ib_uobject               *xrcd_uobj;
++#else
++	struct ib_uobject               *uninitialized_var(xrcd_uobj);
++#endif
+ 	struct ib_device *ib_dev;
+ 
+ 	obj = (struct ib_usrq_object *)uobj_alloc(UVERBS_OBJECT_SRQ, attrs,

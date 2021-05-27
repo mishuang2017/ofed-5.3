@@ -1,0 +1,5 @@
+sep=;
+Change-Id=I15de45e7b16a86a739a00611a01d7443bc0818d1; subject=RDMA/mlx5: Fix MR cache size_store; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: a1d8854aae4e, tag: v5.6-rc3;
+Change-Id=I929c611f4d3916434eb444b27d5c7a42497b2a90; subject=RDMA/mlx5: Create ODP EQ only when ODP MR is created; feature=odp_eq; upstream_status=in_progress; general=;
+Change-Id=I7d19d57a0cf4d529df78e1de54d455ffac9a7612; subject=RDMA/mlx5: Fix release flow in creation of ODP EQ; feature=odp_eq; upstream_status=in_progress; general=;
+Change-Id=I05602961aee47e6af3c9181d5926dfff2ab4e183; subject=RDMA/mlx5: Create ODP EQ only if dev profile support ODP; feature=odp_eq; upstream_status=in_progress; general=;

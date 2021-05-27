@@ -1,0 +1,2 @@
+sep=;
+Change-Id=Ia80fcc1cc28629a93f4c88ecddee9f1f84531d62; subject=mlx5_ib: Add has_smi sysfs entry; feature=has_smi_sysfs; upstream_status=NA; general=;

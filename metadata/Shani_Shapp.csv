@@ -1,0 +1,9 @@
+sep=;
+Change-Id=I7a6ba22d823fa65eaec0bf0d0bf79183863600aa; subject=net/mlx5e: Fix multicast counter not up-to-date in "ip -s"; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: 47c97e6b10a1, tag: v5.9-rc7;
+Change-Id=I36d2ee7d51cbc4c428fe730b1e0328f2d73d3d8f; subject=net/mlx5: Clear bw_share upon VF disable; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: 1ce5fc724a26, tag: v5.10-rc5;
+Change-Id=Ie29dd8a9b8fa529cc37fdd242f0c7dcd6664160f; subject=net/mlx5: Disable QoS when min_rates on all VFs are zero; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: 470b74758260, tag: v5.10-rc5;
+Change-Id=I79b0f6b86c5eae49566a03c37d0a09da9a178826; subject=net/mlx5e: Fix bug at changing the other channels' number; feature=mlx5_en_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I7acced865a0de68b8b72b9aafaa5c9466e80ab5c; subject=net/mlx5e: Disable NETIF_F_HW_TLS_RX when RXCSUM is disabled; feature=tls_rx; upstream_status=NA; general=;
+Change-Id=Iced63618bf7dde864535ee81b569abf2d6576037; subject=BACKPORTS: Fix backports after disable NETIF_F_HW_TLS_RX when RXCSUM is disabled; feature=backports; upstream_status=ignore; general=;
+Change-Id=I44e12501cfaf015f6f1752fb44bb94f8324e3429; subject=BACKPORTS: Fix backports after recover flow fix; feature=backports; upstream_status=ignore; general=;
+Change-Id=I4a142a7e2a4069a01f0bcca475b02c413e5f03ae; subject=net/mlx5e: Fix recover flow in DSCP state; feature=mlx5e_dscp2prio; upstream_status=NA; general=;

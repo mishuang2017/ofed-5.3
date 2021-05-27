@@ -1,0 +1,4 @@
+sep=;
+Change-Id=I548347f18a9df326d985612703acf86f25282f9c; subject=net/mlx5: Add sysfs API to control RoCE enablement; feature=disable_roce; upstream_status=NA; general=;
+Change-Id=I5831b959232044f08e0a943756ef0710cf0de8f6; subject=net/mlx5: Add handling of port type in rule deletion; feature=rdma_tx; upstream_status=accepted; general=upstream commit ID: 8cbcc5ef2a28, tag: v5.10-rc5;
+Change-Id=I87df95e81fbbb75d3770aff21bc6a1f165430008; subject=RDMA/mad: Limit SMP MADs on the wire using a window mechanism; feature=smp_mad_window; upstream_status=NA; general=;

@@ -1,0 +1,8 @@
+sep=;
+Change-Id=I830614bc41212e94b39723b8720fb07ccec241fd; subject=nvme-pci: fix PRP pool size; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Idfaffa9eac5892a55990cbeb9f7e94ed7d4a5c99; subject=nvme: rename and document nvme_end_request; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I8ca4b969c96430159669bb6b497ae0109715a629; subject=nvme: refactor command completion; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I2f722e63091a1ffd24877f9fc0bdf6b012518838; subject=nvme: just check the status code type in nvme_is_path_error; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ib7286cc806b338f13d654fd970839589245b5454; subject=nvmet: get transport reference for passthru ctrl; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I279fa013590983b839ff0e68a9d9c11715023192; subject=nvme: don't call revalidate_disk from nvme_set_queue_dying; feature=rebase; upstream_status=accepted; general=tag: v5.10-rc1;
+Change-Id=I499ffae199502c1db7fe2c5f553766158162b242; subject=nvme: opencode revalidate_disk in nvme_validate_ns; feature=rebase; upstream_status=accepted; general=tag: v5.10-rc1;

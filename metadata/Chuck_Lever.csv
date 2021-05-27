@@ -1,0 +1,3 @@
+sep=;
+Change-Id=If925e3180e20c903f3b4796f43c00a49b644793f; subject=xprtrdma: Release in-flight MRs on disconnect; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=If7b354051230974d4dd4d13eefd41097f980d6b5; subject=RDMA/core: Move the rdma_show_ib_cm_event() macro; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: b3d03daa7cd1, tag: v5.10;

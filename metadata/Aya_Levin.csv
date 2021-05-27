@@ -1,0 +1,18 @@
+sep=;
+Change-Id=Iab668f704e70348f5737154acd4fd507bac1b03f; subject=net/mlx5e: Separate dependency between XDP and basic flow; feature=ktls; upstream_status=in_progress; general=;
+Change-Id=I800f4f05f55cdd2d37086314e5fa8c3ec0a93eb3; subject=net/mlx5e: Remove index and group id from EQ dump; feature=mlx5_devlink_sysfs_interface; upstream_status=NA; general=;
+Change-Id=I5e90703e534011e9b090994a694f15e1d34e5b28; subject=net/mlx5e: Fix error path for RQ alloc; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: 08a762cecc60, tag: v5.9;
+Change-Id=Idcd1388a7741fb2aa6070489306c3cca8ce36ca3; subject=net/mlx5e: Add resiliency in Striding RQ mode for packets larger than MTU; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: c3c9402373fe, tag: v5.9;
+Change-Id=I17e703424445ece866dadca16ddebb24348d5013; subject=net/mlx5e: Fix driver's declaration to support GRE offload; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: 3d093bc23690, tag: v5.9;
+Change-Id=I279e7714c433efecb965e822d7c8297f7a43de64; subject=net/mlx5e: Fix VLAN cleanup flow; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ie058ce51170414870f785a579b2cd53a7102490b; subject=net/mlx5e: Fix VLAN create flow; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I38e2edf5fde99377221c1ecb76dea51fb20224c2; subject=net/mlx5e: Allow RQ outside of channel context; feature=tx_port_ts; upstream_status=accepted; general=upstream commit ID: 521f31af004a, tag: v5.11-rc1;
+Change-Id=Ic768f7f2d7000bc8aa85bb2d3eacc3ee8f59f8df; subject=net/mlx5e: Allow CQ outside of channel context; feature=tx_port_ts; upstream_status=accepted; general=upstream commit ID: 4d0b7ef909b6, tag: v5.11-rc1;
+Change-Id=I41dea0cad4e1a28da18c69298c82591763b74f91; subject=Revert: "net/mlx5: Add support for NPPS with real time mode"; feature=cyc2time_offload; upstream_status=ignore; general=;
+Change-Id=I273f39a4e8df9256a5fad67445082c3cc6f439ed; subject=net/mlx5: Add cyc2time HW translation mode support; feature=cyc2time_offload; upstream_status=accepted; general=upstream commit ID: a04bcfad777f, tag: v5.12-rc1;
+Change-Id=I35761c14a03b8c24121cf7f69438fa205c39e165; subject=Compat: Remove define HAVE_PTP_CLOCK_INFO_ADJFINE; feature=cyc2time_offload; upstream_status=ignore; general=;
+Change-Id=Idfb540982491e2bcc34dd31974c09685647196d7; subject=BACKPORTS: Fix backports; feature=cyc2time_offload; upstream_status=ignore; general=;
+Change-Id=I54982ff5980d9e6c12a2c0f79fbcb9dd4b499700; subject=net/mlx5: Fix turn-off PPS command; feature=cyc2time_offload; upstream_status=in_progress; general=;
+Change-Id=I03a110c819fa9f400e09299ce34e0cb73a67657a; subject=BACKPORTS: Fix backports; feature=cyc2time_offload; upstream_status=ignore; general=;
+Change-Id=I1cbaf7fc6fef8963781185cbe6e645f4ba6fa3bd; subject=net/mlx5e: Fix ethtool indication of connector type; feature=mlx5_en_bugs; upstream_status=in_progress; general=;
+Change-Id=I777507bf47c8025706dc843efcec779536be587a; subject=BACKPORTS: Fix backports for en_ethtool; feature=backports; upstream_status=ignore; general=;

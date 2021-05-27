@@ -1,0 +1,9 @@
+sep=;
+Change-Id=I2fc6b3e0ab78d09103fa386671364f2a49ad5ad1; subject=net/mlx5: fix vport/port API to support sriov sysfs; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=Ibd4e33baca9d5432c9bb316e6a636bb854492d1f; subject=net/mlx5: add sriov sysfs support; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=Ib1d844f15c64002069decf80de855fece27bdf6b; subject=net/mlx5: Get vport info directly from the vport struct in sriov sysfs; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=I6d6b25cfd3ca179a4464ab10310432d11b5945b7; subject=net/mlx5: Add cmd sysfs to manipulate cache sets; feature=cmd_if_sysfs; upstream_status=NA; general=;
+Change-Id=Icf62738cb30b38c428942c2da199b80c82a9f674; subject=net/mlx5: Add warning print when page allocation fails; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I028ee2baf714b3e639c208860b0af225a3fb3eab; subject=net/mlx5: Add PCI suspend and resume callbacks; feature=pci_suspend_resume_callbacks; upstream_status=NA; general=;
+Change-Id=I4adcd6aadf3da13362a64a4ecd2ce6ea9fce11a6; subject=net/mlx5: Add missing guids/node_guid module params; feature=rebase; upstream_status=NA; general=;
+Change-Id=Ibddd76635b19ab4883fd03a5f56778041e766a44; subject=net/mlx5: Limit fw page allocation time; feature=mlx5_eeh_cmd_time_out; upstream_status=in_progress; general=;

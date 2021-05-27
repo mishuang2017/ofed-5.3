@@ -1,0 +1,12 @@
+sep=;
+Change-Id=I11b92ec259a2c7710fc82d38d9b113db7aa06b05; subject=mlx5: DR, enable QP retransmission; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I407037e716d8f5b7a07cdbe49de88ed31303c6e4; subject=net/mlx5: DR, Query Roce capabilities; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ib05df3a43539f096d7f5d9090e3ca7b016ecc66f; subject=net/mlx5: DR, Move query RoCE enabled cap to devx query; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I9a48c8a734f3cd943be4b93e9da722cd62dd4674; subject=net/mlx5: DR, Add support for using force-loopback on QP creation; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ia675ed786166d2ab42be95c0a3c65393adcb0bff; subject=net/mlx5: DR, Add support for isolate_vl_tc; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Idb1a1bc72f21e5a6b76e52336674e36e4c88048a; subject=net/mlx5: DR, Do not set VLAN action with DECAP on same STE; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I9fe6375615c5fb96abe37eedb9fc1a26b579e071; subject=net/mlx5: DR, Modify header action of size 1 optimization; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=If845c1497b5f01fdb2b8e6d481bf4858fc2f84e3; subject=net/mlx5: DR, Modify header action optimization dump tool support; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I026d48726e3ad39bdd4e1bd92bf076c6f75b2aef; subject=net/mlx5: DR, Add support for rule creation with flow source hint; feature=sw_steering; upstream_status=accepted; general=upstream commit ID: 01723919675d, tag: v5.10-rc1;
+Change-Id=Icc9c7c7c9612cbc5365079f2a4d9fa6828bdd307; subject=net/mlx5: DR, Supprot IPv6 matching on flow label; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I440c67cb98ef163401470bcf956bf09fdb1fa5ed; subject=net/mlx5: DR, Support SW created encap actions for FW table.; feature=sw_steering; upstream_status=in_progress; general=;

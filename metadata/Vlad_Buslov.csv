@@ -1,0 +1,13 @@
+sep=;
+Change-Id=I13720b028e8fa945c0ca953797c0ae3aa353ab27; subject=net/mlx5e: Fix race condition on nhe->n pointer in neigh update; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I0e5a2170f492a6157eaad6affdabf4a921ed0c4f; subject=net/mlx5e: Add function to query VF net device vport; feature=stack_devices; upstream_status=in_progress; general=;
+Change-Id=I789949c0459908737f386ad2238a5f0617c19f26; subject=net/mlx5e: Always set attr mdev pointer; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 275c21d6cbe2, tag: v5.12-rc1;
+Change-Id=Ib0e2da13f35c498403d8d795339eaa5ffef25b22; subject=net/mlx5e: StackDevices, encapsulated TX traffic offloading; feature=stack_devices; upstream_status=in_progress; general=;
+Change-Id=Iea83c745ccc9c9de979ebdee744922c7b4e68ea3; subject=net/mlx5e: StackDevices, encapsulated RX traffic offloading; feature=stack_devices; upstream_status=in_progress; general=;
+Change-Id=Ibe85c33661ee44e5ac1aea51973bb0855253c795; subject=net/mlx5e: Refactor reg_c1 usage; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 48d216e5596a, tag: v5.12-rc1;
+Change-Id=I0609ec1085fff02974d50d3838d38d5be50ab346; subject=net/mlx5e: Match recirculated packet miss in slow table using reg_c1; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 8e404fefa58b, tag: v5.12-rc1;
+Change-Id=I3d554056b59bfaaafb0c30fa877efe3fc9f8c7cd; subject=net/mlx5e: Extract tc tunnel encap/decap code to dedicated file; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 0d9f96471493, tag: v5.12-rc1;
+Change-Id=If50cbde6428bf125121a77a723f4dd394a736462; subject=net/mlx5e: Create route entry infrastructure; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 777bb800c696, tag: v5.12-rc1;
+Change-Id=I9313974b8be433c98d328e348b9c3ea216e73d4a; subject=net/mlx5e: Refactor neigh update infra; feature=stack_devices; upstream_status=in_progress; general=;
+Change-Id=I878dd0fb1d6c6ae5617041b51da86e421d7021b3; subject=net/mlx5e: Handle FIB events to update tunnel endpoint device; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 8914add2c9e5, tag: v5.12-rc1;
+Change-Id=I01b8b9c2b7734b5d0fcb0df143c068f233ae135c; subject=net/mlx5e: E-Switch, Maintain vhca_id to vport_num mapping; feature=stack_devices; upstream_status=accepted; general=upstream commit ID: 84ae9c1f29c0, tag: v5.12-rc1;

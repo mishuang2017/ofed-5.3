@@ -1,0 +1,4 @@
+sep=;
+Change-Id=If601624ea3eda8e2b0b2b983128bb25e389de9cf; subject=mlx5_core: Provide the correct VPort index when setting Port GUID; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=Idf9eafa546dba9cdf3ab7f8ef8fd4b0be6feaa29; subject=IB/core: Report 0 rate when link is down; feature=ib_core_bugs_in_review; upstream_status=NA; general=;
+Change-Id=I79310816427a9b755cfeea08d868ce34f5804e3c; subject=IB/core: include ratelimit.h, fix build error on kernel 3.2; feature=ib_core_bugs_in_review; upstream_status=NA; general=;

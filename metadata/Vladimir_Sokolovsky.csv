@@ -1,0 +1,16 @@
+sep=;
+Change-Id=I3deeb7fbb866f1698619dbaa9bc231b416fc12f5; subject=net/mlx5: Host PF/VF vport state sysfs control via ECPF; feature=mlx5_devlink_sysfs_interface; upstream_status=NA; general=;
+Change-Id=Iac34c3152f8abaf9d902c9dfeb89a0ed81d2f849; subject=mlnx/BF scripts: Ignore devices with link type IB; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I049b48caf145b5709b052694955d4c02bc330a4f; subject=ofed_scripts/BF: Check the current LINK_TYPE instead of the default; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I091b521be56d93e31296c8e4edda887cb36a6dd7; subject=ofed_scripts/mlnx-sf: Change PF_BAR2_SIZE and remove limits; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I5dccfdd7743b3e20598994212ee434b2e28f2f54; subject=debian/rules: Added support for signing kernel modules; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Iaa96555c10323ecfb268a76ec15fc0563cb3bde7; subject=ofed_scripts: Added mlnx_bf_udev; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Ib79832af96702db2dbf54f922f83e48bfad8053b; subject=mlnx_bf_configure: Create OVS bridge upon boot; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I6278169a4f7e0b151c3e1cd36e1112db2d84952a; subject=ofed_scripts/mlnx_bf_udev: Reduce memory consumption for representors; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Ice24772b8c23a18acecd822a9fc7508fddcc249f; subject=ofed_scripts/mlnx_bf_configure: Enable OVS bridge creation if SF netdevice is not present; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I394bd3f884a6dd90cd80808808b1a4730ff10b3c; subject=ofed_scripts/mlnx_bf_configure: Add Secure Boot support; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Iee9b651468b66c4ae53fa88960c03b0835db5bab; subject=ofed_scripts: Added support for building drivers on container; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I9b6dfa51d5006f7af63159febd9f4b5be72d76cb; subject=ofed_scripts/mlnx_bf_configure: Restart openvswitch.service after enabling hw offload; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Icd9a7850ac0b78e93e1288fa3e29b0ec0b104f65; subject=ofed_scripts/mlnx_bf_configure: Restart openvswitch after all interfaces created; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I136c59b1309dbf10317b5f8aaf284b31d6f9cae6; subject=ofed_scripts/mlnx_bf_configure: Rewrite OVS configuration flow; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I83f8f79044a7acb5e765166b5e3101ee77447e4b; subject=ofed_scripts/mlnx_bf_udev: Bring up network interfaces using ip command; feature=ofed_scripts; upstream_status=ignore; general=;

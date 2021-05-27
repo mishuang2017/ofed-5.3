@@ -1,0 +1,14 @@
+sep=;
+Change-Id=Ia00bbac80df5a92b78bf9c914371fd613924c60c; subject=nvme: redirect commands on dying queue; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I7db23aacbe0b5fde3a1b252afba1b2110426bb77; subject=nvme: introduce nvme_sync_io_queues; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=Icc551fa313a19943303d6186ad9ce324bcd6283e; subject=nvme-rdma: avoid race between time out and tear down; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=I947f114db1d9b63e203e0b47d67c95b4c70fbe0c; subject=nvme-tcp: avoid race between time out and tear down; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=Ifcffd9458d2b0146712d494f5e77df5c0df4a622; subject=nvme-rdma: fix crash due to incorrect cqe; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=I1de6eb605ec787c0af4dbeb1f3dde6f6f6ff8371; subject=nvme-rdma: fix crash when connect rejected; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=I635b94ee8fac52a128ea6614151506476aac8fd8; subject=nvme-rdma: avoid request double completion for concurrent nvme_rdma_timeout; feature=rebase; upstream_status=accepted; general=upstream commit ID: 7674073b2ed3, tag: v5.11-rc5;
+Change-Id=I419326596161ec27498176d99c991310be2e5d15; subject=nvme-core: add cancel tagset helpers; feature=rebase; upstream_status=accepted; general=upstream commit ID: 2547906982e2, tag: v5.12-rc1;
+Change-Id=I6c8fb8d1b30ca0115e9c0945a35f84570b9e1e28; subject=nvme-rdma: add clean action for failed reconnection; feature=rebase; upstream_status=accepted; general=upstream commit ID: 958dc1d32c80, tag: v5.12-rc1;
+Change-Id=I5394bd1a74c9eb1eb449356731667763ee32033b; subject=nvme-rdma: use cancel tagset helper for tear down; feature=rebase; upstream_status=accepted; general=upstream commit ID: c4189d680e12, tag: v5.12-rc1;
+Change-Id=I4bb611ed5c62b0973f956f6a5323675678ac76fb; subject=nvme: introduce a nvme_host_path_error helper; feature=rebase; upstream_status=accepted; general=upstream commit ID: dda3248e7fc3, tag: v5.12-rc1;
+Change-Id=Id5976118317efbd90fd765571a4a0192b4345cbc; subject=nvme-fabrics: avoid double completions in nvmf_fail_nonready_command; feature=rebase; upstream_status=accepted; general=upstream commit ID: ea5e5f42cd2c, tag: v5.12-rc1;
+Change-Id=I03ca9a1e323a843acb8173de698c556b06acc36e; subject=nvme-rdma: handle nvme_rdma_post_send failures better; feature=rebase; upstream_status=accepted; general=upstream commit ID: 62eca39722fd, tag: v5.12-rc1;

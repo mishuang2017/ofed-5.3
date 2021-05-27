@@ -1,0 +1,13 @@
+sep=;
+Change-Id=I90dc3750236092ce17764712852aaac3f4e54c89; subject=net/mlx5e: Dynamically extend/reduce the RX internal page cache; feature=mlx5_en_page_cache; upstream_status=NA; general=;
+Change-Id=Ie4d0d76ea4b6f0f5a9c55f7807094b53d0546331; subject=net/mlx5e: Enhancements for RX page-cache reduce decision; feature=mlx5_en_page_cache; upstream_status=NA; general=;
+Change-Id=Iac271ae9e485b393326333fb84b031b26993528f; subject=net/mlx5e: RX, Implement page biased-refcount optimization; feature=mlx5e_perf_improvements; upstream_status=NA; general=;
+Change-Id=I1ede0db2b58efebd348c9154bde73e79403b2ad4; subject=net/mlx5e: Open new channels after deactivating existing ones; feature=iommu_soft_lockup_WA; upstream_status=NA; general=;
+Change-Id=I7b8d88dd3ffb9d05f82b1b34210330898fa672c7; subject=net/mlx5e: TLS, Do not expose FPGA TLS counter if not supported; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I4727d0eeee8dddd898a211e94107f8d3dde3f804; subject=net/mlx5e: kTLS, Fix napi sync and possible use-after-free; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I89145df0487c6cde5b58eff22620dd3609069596; subject=net/mlx5e: Free drop RQ in a dedicated function; feature=mlx5_en_bugs; upstream_status=accepted; general=upstream commit ID: cdd3f2367aeb, tag: v5.11-rc1;
+Change-Id=I6f34b90b339ef486d6722ea6618acee604ff988d; subject=net/mlx5e: RX, Add a prefetch command for small L1_CACHE_BYTES; feature=mpwqe_non_xdp; upstream_status=accepted; general=tag: v5.10-rc1;
+Change-Id=I49555bd0b7a0d3f0a5984013302d54cae1a9b172; subject=net/mlx5e: kTLS, Enforce HW TX csum offload with kTLS; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;
+Change-Id=I5f739ea2603f4a056bcc46ceb406245b4cbc77c4; subject=rdma.m4: Check if irq_get_affinity_mask exists; feature=backports; upstream_status=ignore; general=;
+Change-Id=If5587ad7b818ebf9592f898e95ea15b5eb6cdf47; subject=net/mlx5e: Allocate channels per actual affinity; feature=mlx5e_perf_improvements; upstream_status=in_progress; general=;
+Change-Id=I004c5bbf7aeb838a83951268fc1f27cc575bde1a; subject=net/mlx5e: Save memory by using dynamic allocation in netdev priv; feature=mlx5_sfs; upstream_status=in_progress; general=;

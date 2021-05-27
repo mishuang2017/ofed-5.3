@@ -1,0 +1,7 @@
+sep=;
+Change-Id=I5d8bea5132a1d7726f41c5711b0436a1661bc599; subject=IB/mlx5: Move mr cache control files to sysfs; feature=mr_cache sysfs; upstream_status=in_progress; general=;
+Change-Id=Ic6c46469d910eef73d9d36ea631af7c6cfa6dd5c; subject=IB/mlx5: Add support for sync steering command; feature=devx; upstream_status=in_progress; general=;
+Change-Id=I4e6fe9573a3b96e82a507153c2defbad3252e4eb; subject=net/mlx5_core: Fix call to schedule_work; feature=mlx5_devlink_sysfs_interface; upstream_status=NA; general=;
+Change-Id=I8d0c8df210d3f2852e3c873929a40a409c055857; subject=net/mlx5: Eswitch, avoid using work queue on direct devlink invocation; feature=mlx5_devlink_sysfs_interface; upstream_status=NA; general=;
+Change-Id=I87aa2e35a466ccb42b176d8ed78d0ed69776f8e4; subject=net/mlx5: Control netdevice creation of SFs; feature=mlx5_sfs; upstream_status=NA; general=;
+Change-Id=I2f112b43b4a63415ea907cc04cea17ae06fb0a23; subject=net/mlx5: Fix PRM violation configuring uplink; feature=mlx5_asap_bugs; upstream_status=in_progress; general=;

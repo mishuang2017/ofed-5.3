@@ -1,0 +1,4 @@
+sep=;
+Change-Id=Ia04c4bd6d760358900ef664ab9f93977b68f9024; subject=nvme: fix hang on module unload with multiple connections; feature=nvmf_bugs_decided_to_submit; upstream_status=in_progress; general=;
+Change-Id=I60995b07d8c6b744861e1d312393c3862463df61; subject=nvme-rdma: Handle completions if error_recovery fails; feature=nvmf_bugs_decided_to_submit; upstream_status=in_progress; general=;
+Change-Id=I89fbdc3c59a8f97b382b5b92899e8830627b6a79; subject=BACKPORTS: Fix ITER_BVEC backports issue at nvme; feature=backports; upstream_status=ignore; general=;

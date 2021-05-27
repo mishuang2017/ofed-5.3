@@ -1,0 +1,4 @@
+sep=;
+Change-Id=Icbfe8e62df23898c1a6c540214591faf04717877; subject=IB/ipoib: Initialize max inline size in mlx4 qp attribute; feature=ethtool_ring_size_param; upstream_status=NA; general=;
+Change-Id=I2efc341d36226df19566d52c368d239ba23c63c0; subject=IB/ipoib: ARP snooping for GID cache synchronize; feature=ipoib_arp_snooping; upstream_status=in_progress; general=;
+Change-Id=I0709dca7371cef22019be1d3ee955987825a37be; subject=IB/ipoib: Fix wqe initialized param on ipoib set mode to connected; feature=ipoib_bugs_in_review; upstream_status=in_progress; general=;

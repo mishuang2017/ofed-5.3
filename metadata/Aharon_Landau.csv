@@ -1,0 +1,4 @@
+sep=;
+Change-Id=Idf3d3d36788a076cb0696dfd9355c13a328ffd56; subject=net/mlx5: Add new timestamp mode bits; feature=utc; upstream_status=accepted; general=upstream commit ID: a6a217dddcd5, tag: v5.12-rc1;
+Change-Id=Ib6003dc99a0daacecc6fbd2fab13fce93fe459cd; subject=RDMA/mlx5: Fail QP creation if the device can not support the CQE TS; feature=utc; upstream_status=accepted; general=upstream commit ID: 2fe8d4b87802, tag: v5.12-rc1;
+Change-Id=I4e62624b8f7eed972f8efb91e84c0880b52c1784; subject=RDMA/mlx5: Set XRC ts_format to default; feature=utc; upstream_status=in_progress; general=;

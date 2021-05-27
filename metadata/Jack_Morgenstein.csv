@@ -1,0 +1,12 @@
+sep=;
+Change-Id=I7aede92e256467f08e2cd0553b8b3661a35b036b; subject=IB/mlx5: In dual-port mode, initialize port 2 for tc_sysfs and ttl_sysfs; feature=mlx5_set_ttl; upstream_status=NA; general=;
+Change-Id=Iffd89b5e065530ca294ec6baeda2dbe3dc94c27a; subject=IB/mlx5: Avoid using dev num_ports in init/cleanup of ttl and tc sysfs; feature=mlx5_set_ttl; upstream_status=NA; general=;
+Change-Id=Ia2fa3291322a7cf81b6370439b6d4ec02655baea; subject=net/mlx5: Avoid waiting for PCI up while in teardown; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I9405b16bcaee2510a1a43991203d4fdaf04ea884; subject=IB/mad: Add SA MADs congestion control; feature=sa_mad_cc; upstream_status=NA; general=;
+Change-Id=I5ab793120c9b38a9dbfe2220c94a272f6eb0ac8b; subject=IB/core: Add sysfs to SA MAD CC parameters; feature=sa_mad_cc; upstream_status=NA; general=;
+Change-Id=Ie01a1ab42667dc55d7e1cbf877aaf458e53be95c; subject=IB/core: Add SA MAD drops counter; feature=sa_mad_cc; upstream_status=NA; general=;
+Change-Id=I7b4df8627e6f47a7d6116a0deead0161c2d06b91; subject=IB/core: Fix doorbell loss on AMD platforms with SME; feature=amd_sme; upstream_status=NA; general=;
+Change-Id=Ice654f9c104b767e0149dbf38f7268d2000dee71; subject=RDMA/core: Clean up cq pool mechanism; feature=ib_core_bugs; upstream_status=accepted; general=upstream commit ID: 286e1d3f9ba8, tag: v5.11-rc1;
+Change-Id=I4421ada3da5337413acc8e5aeabda6e4cc5dd352; subject=RDMA/core: Do not indicate device ready when device enablement fails; feature=ib_core_bugs; upstream_status=accepted; general=upstream commit ID: 779e0bf47632, tag: v5.11-rc1;
+Change-Id=I27c1fd8c0b654f9f27d3991ee3ff7a79ddf39d77; subject=backports: add rdma.m4 and configure.ac changes for devlink api mods; feature=backports; upstream_status=ignore; general=;
+Change-Id=Iedc3e00fd5ebc030f3d03139ef6b684767856166; subject=backports: fix devlink backport for upstream kernels 5.10++; feature=backports; upstream_status=ignore; general=;

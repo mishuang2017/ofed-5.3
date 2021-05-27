@@ -1,0 +1,100 @@
+From: Valentine Fatiev <valentinef@mellanox.com>
+Subject: [PATCH] BACKPORT: drivers/net/ethernet/mellanox/mlx5/core/en_fs.c
+
+Change-Id: Ie12a73ec691888bf038751d2af04efa1de3bad75
+---
+ .../net/ethernet/mellanox/mlx5/core/en_fs.c   | 24 +++++++++++++++----
+ 1 file changed, 20 insertions(+), 4 deletions(-)
+
+diff --git a/drivers/net/ethernet/mellanox/mlx5/core/en_fs.c b/drivers/net/ethernet/mellanox/mlx5/core/en_fs.c
+index xxxxxxx..xxxxxxx 100644
+--- a/drivers/net/ethernet/mellanox/mlx5/core/en_fs.c
++++ b/drivers/net/ethernet/mellanox/mlx5/core/en_fs.c
+@@ -80,8 +80,9 @@ static void mlx5e_add_l2_to_hash(struct hlist_head *hash, u8 *addr)
+ 	struct mlx5e_l2_hash_node *hn;
+ 	int ix = mlx5e_hash_l2(addr);
+ 	int found = 0;
++	COMPAT_HL_NODE
+ 
+-	hlist_for_each_entry(hn, &hash[ix], hlist)
++	compat_hlist_for_each_entry(hn, &hash[ix], hlist)
+ 		if (ether_addr_equal_64bits(hn->ai.addr, addr)) {
+ 			found = 1;
+ 			break;
+@@ -333,6 +334,15 @@ static int mlx5e_vlan_rx_add_cvid(struct mlx5e_priv *priv, u16 vid)
+ {
+ 	int err;
+ 
++#if (1) /* MLX5E TRUE backport*/
++
++	/* This is a WA for old kernels (<3.10) that don't delete vlan id 0
++	 * when the interface goes down.
++	 */
++	if (test_bit(vid, priv->fs.vlan->active_cvlans))
++		return 0;
++#endif
++
+ 	set_bit(vid, priv->fs.vlan->active_cvlans);
+ 
+ 	err = mlx5e_add_vlan_rule(priv, MLX5E_VLAN_RULE_TYPE_MATCH_CTAG_VID, vid);
+@@ -360,7 +370,8 @@ static int mlx5e_vlan_rx_add_svid(struct mlx5e_priv *priv, u16 vid)
+ 	return err;
+ }
+ 
+-int mlx5e_vlan_rx_add_vid(struct net_device *dev, __be16 proto, u16 vid)
++int mlx5e_vlan_rx_add_vid(struct net_device *dev, __always_unused __be16 proto,
++			  u16 vid)
+ {
+ 	struct mlx5e_priv *priv = netdev_priv(dev);
+ 
+@@ -375,7 +386,8 @@ int mlx5e_vlan_rx_add_vid(struct net_device *dev, __be16 proto, u16 vid)
+ 	return -EOPNOTSUPP;
+ }
+ 
+-int mlx5e_vlan_rx_kill_vid(struct net_device *dev, __be16 proto, u16 vid)
++int mlx5e_vlan_rx_kill_vid(struct net_device *dev, __always_unused __be16 proto,
++			   u16 vid)
+ {
+ 	struct mlx5e_priv *priv = netdev_priv(dev);
+ 
+@@ -435,7 +447,7 @@ static void mlx5e_del_vlan_rules(struct mlx5e_priv *priv)
+ 
+ #define mlx5e_for_each_hash_node(hn, tmp, hash, i) \
+ 	for (i = 0; i < MLX5E_L2_ADDR_HASH_SIZE; i++) \
+-		hlist_for_each_entry_safe(hn, tmp, &hash[i], hlist)
++		compat_hlist_for_each_entry_safe(hn, tmp, &hash[i], hlist)
+ 
+ static void mlx5e_execute_l2_action(struct mlx5e_priv *priv,
+ 				    struct mlx5e_l2_hash_node *hn)
+@@ -498,6 +510,7 @@ static void mlx5e_fill_addr_array(struct mlx5e_priv *priv, int list_type,
+ 	struct hlist_node *tmp;
+ 	int i = 0;
+ 	int hi;
++	COMPAT_HL_NODE
+ 
+ 	addr_list = is_uc ? priv->fs.l2.netdev_uc : priv->fs.l2.netdev_mc;
+ 
+@@ -527,6 +540,7 @@ static void mlx5e_vport_context_update_addr_list(struct mlx5e_priv *priv,
+ 	int size;
+ 	int err;
+ 	int hi;
++	COMPAT_HL_NODE
+ 
+ 	size = is_uc ? 0 : (priv->fs.l2.broadcast_enabled ? 1 : 0);
+ 	max_size = is_uc ?
+@@ -578,6 +592,7 @@ static void mlx5e_apply_netdev_addr(struct mlx5e_priv *priv)
+ 	struct mlx5e_l2_hash_node *hn;
+ 	struct hlist_node *tmp;
+ 	int i;
++	COMPAT_HL_NODE
+ 
+ 	mlx5e_for_each_hash_node(hn, tmp, priv->fs.l2.netdev_uc, i)
+ 		mlx5e_execute_l2_action(priv, hn);
+@@ -591,6 +606,7 @@ static void mlx5e_handle_netdev_addr(struct mlx5e_priv *priv)
+ 	struct mlx5e_l2_hash_node *hn;
+ 	struct hlist_node *tmp;
+ 	int i;
++	COMPAT_HL_NODE
+ 
+ 	mlx5e_for_each_hash_node(hn, tmp, priv->fs.l2.netdev_uc, i)
+ 		hn->action = MLX5E_ACTION_DEL;

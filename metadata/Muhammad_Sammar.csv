@@ -1,0 +1,15 @@
+sep=;
+Change-Id=Ie383cf6dddbb853a1807e519f57d3c0ac8f9eaf7; subject=net/mlx5: DR, Add support for steering dump tool; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ibdce5df3312973e183c8f53be99189db87fe88fd; subject=net/mlx5: DR, Fix steering dump tool dr_copy_from_dump_buffer offset; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I4de42f212bc4bcb4194c308cc5902e1238445cde; subject=net/mlx5: DR, Add separate mutex for dump tool; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I5df072bc4edfe064dbb9504bad3457c5e9e6b4ae; subject=net/mlx5: DR, Replace memcpy with copy_to_user; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I7fad8a4d3f5fda9ef0766a42500d9bac18b67872; subject=net/mlx5: Add misc4 to mlx5_ifc_fte_match_param_bits; feature=sw_steering; upstream_status=accepted; general=upstream commit ID: 7da3ad6c26f4, tag: v5.11-rc1;
+Change-Id=If659c215cd9b45f1cb7a109a2d4c2100ccfae134; subject=net/mlx5: DR, Fix comma typo in dump tool actions; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I905086a45010b8a8769db4101d2661743bb1ca7b; subject=net/mlx5: DR, Refactoring flex_parser_3; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ie7eafca0d4fe090762d56e6b8fec84bcc2ba9a55; subject=net/mlx5: DR, Add misc4 to match_param structs; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ie74641d25031f16864209f5c8127d2e862402928; subject=net/mlx5: DR, Add support for dynamic flex parser; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I99e310f875bb86c0b91010411dc8e4e07183f9b0; subject=net/mlx5: DR, Add support for tunnel geneve option; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ib1be046aa45058a18567df53323ef39339580a11; subject=net/mlx5: DR, Fix STEv1 action size for push vlan; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I9d8c6d488b51ccf46e1952b8063049f977b08351; subject=net/mlx5: DR, Fix STEv0 ICMP_CODE typo; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=I58e52481008b10795dfa2829ae8b9abd377b49a1; subject=net/mlx5: DR, Set STEv0 ICMP flex parser dynamically; feature=sw_steering; upstream_status=in_progress; general=;
+Change-Id=Ie786b6e7eb37e27a6346ccfe419174dffe97161e; subject=net/mlx5: DR, Set flex parser for TNL_MPLS dynamically; feature=sw_steering; upstream_status=in_progress; general=;

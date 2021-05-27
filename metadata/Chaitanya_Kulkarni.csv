@@ -1,0 +1,8 @@
+sep=;
+Change-Id=If3fee215242da3d34437ab17ec0107485831102e; subject=nvmet: add ns tear down label for pt-cmd handling; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ic430c2eee40b66523b6dfdb571c8476e2d2b1247; subject=nvmet: fix oops in pt cmd execution; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I87f8e17631686548cbad5750f356ee761813414f; subject=nvmet: call blk_mq_free_request() directly; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ia05f0d705ca5351517621edd90249b2fbfd539f0; subject=nvme-core: get/put ctrl and transport module in nvme_dev_open/release(); feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I08e7837777a5edcb1f718f2250c801ffed419e93; subject=nvme-core: don't use NVME_NSID_ALL for command effects and supported log; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Idff16155bef30d1fc5354d845b29cabbdfed6c69; subject=nvme-core: put ctrl ref when module ref get fail; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=I9a9268b8c2c2676d94d77a5acba11aef906d3f3d; subject=nvmet: fix a NULL pointer dereference when tracing the flush command; feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;

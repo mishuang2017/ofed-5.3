@@ -1,0 +1,2 @@
+sep=;
+Change-Id=I592dc64497e5c0d456217018e392301287b32e59; subject=IB/IPoIB: Fix TX/RX queue size unwanted lowering scenario; feature=ipoib-ethtool; upstream_status=NA; general=;

@@ -1,0 +1,2 @@
+sep=;
+Change-Id=I81fbabbff3301648ea1119c3d4b750cb1435b3bf; subject=net: core: introduce struct netdev_nested_priv for nested interface infrastructure; feature=rebase; upstream_status=accepted; general=tag: v5.9;

@@ -1,0 +1,8 @@
+sep=;
+Change-Id=If1715d318816f2c135f618c4c62aa895fa1f5441; subject=IB/mlx5: Add tx_affinity support for DCI QP; feature=mlx5_dc_roce_lag; upstream_status=accepted; general=upstream commit ID: 8f3243a0479e, tag: v5.10-rc1;
+Change-Id=Ib6f6c62b6d22e1616c0820b527994a54a0b69f6b; subject=IB/mlx5: For an outstanding wr reuse the soft WC for poll; feature=mlx5_ib_bugs; upstream_status=in_progress; general=;
+Change-Id=Ie7f38a0668a887ad5aa920ff271284c5f64b6270; subject=RDMA/mlx5: Add new IB rates support; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: c531024bb166, tag: v5.10-rc1;
+Change-Id=If2e974a8c2d5c0370afd7207d97de575941e4d40; subject=IB/cm: Consider local communication ID when check for a stale connection; feature=ib_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I68d7623a5022ebb29afb4422f6c3deec66b55165; subject=net/mlx5: Read cong counters from all ports when lag is active; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I059e1653c637368ee098e896f2eb518d047c34a0; subject=net/mlx5: Issue a destroy lag command when move a PF to legacy sriov; feature=mlx5_single_fdb_lag; upstream_status=in_progress; general=;
+Change-Id=I4247989ebd5e56f580949787c0dd36220e71415c; subject=net/mlx5: Use port_num 1 instead of 0 when delete a RoCE address; feature=rebase; upstream_status=accepted; general=tag: v5.11-rc6;

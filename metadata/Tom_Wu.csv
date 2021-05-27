@@ -1,0 +1,6 @@
+sep=;
+Change-Id=If4865a64025f2b6d4f620f0ea51a5f8dd5904697; subject=nvmet: fix nvmf-rdma offload counter; feature=nvmf_offload; upstream_status=in_progress; general=;
+Change-Id=Ia9e722eb3bdca63edeabca1dd401f3150227416d; subject=BACKPORTS: Add NFSoRDMA backports; feature=backports; upstream_status=ignore; general=;
+Change-Id=I0bdf76d40d40c094ac01d81605cfee1a52c80495; subject=BACKPORTS: NFSoRDMA module backport update; feature=backports; upstream_status=ignore; general=;
+Change-Id=Icf4114f65fe4153e3d3766c79413550686b3b17a; subject=BACKPORTS: NFSoRDMA backports update; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=Ie9afe89ef7dd95c63e42be1e51d5e89651cc2f18; subject=xprtrdma: fix compilation with GDS flag; feature=gds; upstream_status=in_progress; general=;

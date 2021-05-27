@@ -1,0 +1,10 @@
+sep=;
+Change-Id=I839df8e9ac7a1208d703463ea57f8a97110593a5; subject=net/mlx5: Save PCI state after driver init; feature=mlx5_eeh_save_pci_state; upstream_status=in_progress; general=;
+Change-Id=I134ec637080ef38be0a6e5e3cadc956b36f16ea1; subject=net/mlx5: Enable vfs sysfs when not eswitch_manager; feature=sriov_sysfs; upstream_status=NA; general=;
+Change-Id=I11f01ce3f8d818a63815b95d45b1fc6864984515; subject=net/mlx5: Implement get/show settings ethtool ops for reps; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=If1f9da9cf84c385833b9358b9a36269fbb0f9647; subject=net/mlx5: Don't flood the log with same switch messages; feature=mlx5_core_bugs_in_review; upstream_status=NA; general=;
+Change-Id=I5fccc050540066103b411d6b0c46dc908ede261b; subject=net/mlx5: Increase Host/VF Rep SQ depth; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=I1fff5650948cad72ed0f51adc8a712275ef48206; subject=net/mlx5: Don't request more than supported EQs; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Icdb0297f713b2f34051c38cbb0804f3e0daecf7f; subject=IB/mlx5: Revert "RDMA/mlx5: Allow only raw Ethernet QPs when RoCE isn't enabled"; feature=mlx5_ib_bugs; upstream_status=ignore; general=;
+Change-Id=Idaf04e718a53bac07d92bd9a62f38d9fdbede913; subject=net/mlx5: Maintain seperate page trees for ECPF and PF functions; feature=mlx5_core_bugs; upstream_status=in_progress; general=;
+Change-Id=I5997dd3cec8c0bee1194a2f8d981acd08c8a5cd5; subject=net/mlx5: Fix error in calculation function ID; feature=mlx5_core_bugs; upstream_status=in_progress; general=;

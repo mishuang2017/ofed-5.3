@@ -1,0 +1,7 @@
+sep=;
+Change-Id=I521ce7060b802a29c47c972ad8a0c2b580e9ae32; subject=net/mlx5e: Fix VXLAN synchronization after function reload; feature=mlx5_en_bugs; upstream_status=accepted; general=tag: upstream commit ID:c5eb51adf06b2644fa28d4af886bfdcc53e288da, tag:v5.10-rc4;
+Change-Id=Iccbfce66c6e08e183eeabe87b5bd86a364326789; subject=net/mlx5e: ethtool, Fix restriction of autoneg with 56G; feature=mlx5_en_bugs; upstream_status=accepted; general=tag: upstream commit ID: b1c0aca3d3ddeebeec57ada9c2df9ed647939249, tag: v5.11-rc3;
+Change-Id=I30aacb550ffd4471c00a680fb14fd004fc1c58a0; subject=net/mlx5_core: Fix a race condition between cr_dump creation and fw_reset; feature=mlx5_crdump; upstream_status=NA; general=;
+Change-Id=Ibd5eb73c1c9c4b7ab6ef4314b8b6d61295fb6bc7; subject=net/mlx5e: Silently ignore setting of an already set ecn value; feature=mlx5_sysfs_ecn_mstdump; upstream_status=NA; general=;
+Change-Id=I972fb5dbb52a2a55b68a4a9b46caedcdb186e658; subject=net/mlx5e: Fix CQ params of ICOSQ and async ICOSQ; feature=tls_rx; upstream_status=accepted; general=tag: =upstream commit ID: ebf79b6be67c0a77a9ab7cdf74c43fd7d9619f0c, tag: v5.12-rc2;
+Change-Id=Id2c0e7eeb912b350e783746f7c01f6766f280001; subject=BACKPORTS: The call to mlx5e_handle_csum should be wrapped; feature=backports; upstream_status=ignore; general=;

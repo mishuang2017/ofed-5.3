@@ -1,0 +1,2 @@
+sep=;
+Change-Id=Ib8a20094549eac56130485ed93b39f068b3db610; subject=net/mlx5: Fix available EQs FW used to reserve; feature=mlx5_core_bugs_in_review; upstream_status=NA; general=;

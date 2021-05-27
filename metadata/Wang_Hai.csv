@@ -1,0 +1,2 @@
+sep=;
+Change-Id=Ic378cb4867dd280504cb20cc3bd882a0f33ecb8f; subject=net/mlx5: fix error return code in mlx5e_tc_nic_init(); feature=rebase; upstream_status=accepted; general=tag: 5.10-rc7;

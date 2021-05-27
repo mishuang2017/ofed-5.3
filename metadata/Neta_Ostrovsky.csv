@@ -1,0 +1,10 @@
+sep=;
+Change-Id=If1bd4841feaf745f4543364b71a7c1e0a517c306; subject=IB/mlx5: Update traffic_class from sysfs files in DCT; feature=mlx5_ib_bugs_in_review; upstream_status=NA; general=;
+Change-Id=I61ef7570125b9555558a7413b65ce5372966951a; subject=RDMA/core: Change rdma_get_gid_attr returned error code; feature=query_gid_table; upstream_status=accepted; general=upstream commit ID: 3ff4de8f6030, tag: v5.10-rc1;
+Change-Id=I11d09cb9368658b05d588fdfbf6e6fa6dde3379f; subject=RDMA/core: Modify enum ib_gid_type and enum rdma_network_type; feature=query_gid_table; upstream_status=accepted; general=upstream commit ID: 1c15b4f2a42f, tag: v5.10-rc1;
+Change-Id=I8d7fd009edb2e4d32022efdfd40a1c10d272ecf2; subject=RDMA/core: Introduce new GID table query API; feature=query_gid_table; upstream_status=accepted; general=upstream commit ID: c4b4d548fabc, tag: v5.10-rc1;
+Change-Id=Id65cca9408979dc2f6eee8ecf76219c82178b641; subject=RDMA/uverbs: Expose the new GID query API to user space; feature=query_gid_table; upstream_status=accepted; general=upstream commit ID: 9f85cbe50aa0, tag: v5.10-rc1;
+Change-Id=Ib461758f7e7d783ffeaf8d9996046d9300e54cd6; subject=mlx5: Sync RoCE enablement via sysfs and via devlink; feature=disable_roce; upstream_status=in_progress; general=;
+Change-Id=I72d6365d72e28bff4d7d75b019716db823f37db0; subject=RDMA/cma: Fix error flow in default_roce_mode_store; feature=query_gid_table; upstream_status=accepted; general=upstream commit ID: 7c7b3e5d9aee, tag: v5.11-rc4;
+Change-Id=Iae7932490e50bd4ce9d0c7fe1b01ff3ef0d9dc73; subject=BACKPORTS: backport drivers/infiniband/core/umem.c; feature=backports; upstream_status=ignore; general=;
+Change-Id=I665bf238395aca55585b2be653495a21e0d670af; subject=RDMA/ucma: Fix use-after-free bug in ucma_create_uevent; feature=ib_core_bugs; upstream_status=accepted; general=upstream commit ID: fe454dc31e84, tag: v5.12-rc1;

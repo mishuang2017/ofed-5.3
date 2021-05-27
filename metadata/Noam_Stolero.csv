@@ -1,0 +1,3 @@
+sep=;
+Change-Id=I573600cbcbc83ab0a76441fe54e86e3fa2b691de; subject=ofed_scripts/mlnx_tune: Fix empty numa_aware_cores list issue for IBM Power8 CPU; feature=ofed_scripts; upstream_status=ignore; general=;
+Change-Id=I4151b2acc8d031cc44557fa2822bda8ff3bff9a3; subject=ofed_scripts/irq_affinity: Fix issue no IRQs found by interface; feature=ofed_scripts; upstream_status=ignore; general=;

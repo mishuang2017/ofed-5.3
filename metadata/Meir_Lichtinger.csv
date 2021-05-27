@@ -1,0 +1,3 @@
+sep=;
+Change-Id=Ic4ac59eb19aaa0ab28d80585ec13db12e470e628; subject=net/mlx5: Fixed issue with disconnect mode in Innova2 for IBM; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=I3a04522c1cb830dd3fb5746a672c61b071d3370b; subject=Add the upcoming BlueField-3 device ID.; feature=pci_device_id; upstream_status=accepted; general=upstream commit ID: dd8595eabeb4, tag: v5.11-rc1;

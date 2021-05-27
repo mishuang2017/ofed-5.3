@@ -1,0 +1,2 @@
+sep=;
+Change-Id=Ibd305fe382be4e4518c6063ed2f68c973fcd3bf4; subject=net/mlx5: fix the dead-lock of rw semphore of ft->node.; feature=mlx5_asap; upstream_status=NA; general=;

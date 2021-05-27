@@ -1,0 +1,8 @@
+sep=;
+Change-Id=I8ae23d332ed4e5f7a31f538bf0d0331bc0940218; subject=net/mlx5: Save FPGA admin image in driver context; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=I9c590a40b52ffcfbb361a7fecaf4fcf54b05821a; subject=net/mlx5: Skip irrelevant init/uninit code for Morse NICs; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=Ide0544c904f147daef05450f7062876adff7ed5d; subject=net/mlx5: Treat failure of FPGA user image as a valid case for Morse project; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=I17ec95f3945d502999be14dfdee21b05818ebf9b; subject=net/mlx5: add IOCTL_FPGA_CAP; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=Ic244e7ad9ac667efb8eb2699a4e4bc7f3a87ceed; subject=net/mlx5: Separate FPGA image status and fdev state; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=Ic1e5759f509c6cab95152d742669d48621ccdfa5; subject=net/mlx5: Support MorseQ board; feature=morse_board_support; upstream_status=ignore; general=;
+Change-Id=I54d2e7f8c016f5f1c7196bc0cf129729e4a10449; subject=net/mlx5: ioctl for FPGA temperature measurement; feature=morse_board_support; upstream_status=ignore; general=;

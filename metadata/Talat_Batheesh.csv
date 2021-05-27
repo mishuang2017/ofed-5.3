@@ -1,0 +1,2 @@
+sep=;
+Change-Id=Ic3a73152e4b972b0bc1a17f4e30810c76efd7d26; subject=mlx5/IB: set default value for gid_type; feature=mlx5_force_tc; upstream_status=NA; general=;

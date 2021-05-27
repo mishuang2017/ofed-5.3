@@ -1,0 +1,5 @@
+sep=;
+Change-Id=I01ad40ccbf29a2bb4b31313215f3a142608e0acb; subject=IB/mlx5: Use peer client page_shift; feature=peer_direct; upstream_status=NA; general=;
+Change-Id=I3e4755fb47fed3a48f7491240c96d3b13bc0e9c3; subject=IB/umem: Fix the Peer flow to handle pinned pages properly; feature=ib_core_bugs_in_review; upstream_status=NA; general=;
+Change-Id=Ida76bba5894db553963b65db11d349559471ac9c; subject=net/mlx5: Manage HCA capabilities on behalf of other function; feature=mlx5_sfs; upstream_status=in_progress; general=;
+Change-Id=I4a933f74768db3f315fa037f2b6886f83ce915b3; subject=net/mlx5: Enable controlling some SF caps to reduce its memory; feature=mlx5_sfs; upstream_status=in_progress; general=;

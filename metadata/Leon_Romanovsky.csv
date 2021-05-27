@@ -1,0 +1,6 @@
+sep=;
+Change-Id=I815d27c41b4a43b694f96827287471e238317db6; subject=RDMA/restrack: Add ability to create non-traceable restrack objects; feature=rdma_res_tracker; upstream_status=in_progress; general=;
+Change-Id=I72a2dc46247b49ab57231c4409df01745e1a3462; subject=RDMA/cm: Fix an attempt to use non-valid pointer when cleaning timewait; feature=rebase; upstream_status=accepted; general=tag: v5.10;
+Change-Id=I3206276991cfc062cc9d698283fcea67eea5b891; subject=RDMA/cma: Add missing error handling of listen_id; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: c80a0c52d85c, tag: v5.10;
+Change-Id=Ia24546a0768027a47159d259d2e6988a7e04ad07; subject=RDMA/cma: Don't overwrite sgid_attr after device is released; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: e246b7c035d7, tag: v5.10;
+Change-Id=Idaf3e3c52efbe0d8e743b9eb3217e0088a0bacf1; subject=RDMA/restrack: Don't treat as an error allocation ID wrapping; feature=rebase; upstream_status=accepted; general=tag: v5.11;

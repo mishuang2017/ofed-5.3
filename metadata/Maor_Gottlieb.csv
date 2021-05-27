@@ -1,0 +1,17 @@
+sep=;
+Change-Id=Id916bd9352e3814c903b394accced52ef84970d8; subject=IB/umem: Add debug prints in error flow; feature=umem_debug_prints; upstream_status=NA; general=;
+Change-Id=I546cef3f0ea7bdee9d6125c0da0a919dd22d7983; subject=net/mlx5: Create flow steering cache with unique device name; feature=update_rate; upstream_status=NA; general=;
+Change-Id=Iad612104bf8196f235265dcc85cc395ad2dbea93; subject=net/mlx5: Add new profile without dct enable; feature=mlx5_fast_driver_unload; upstream_status=NA; general=;
+Change-Id=Iff9a237b1a5e3214726a40e357985b3076708a35; subject=RDMA/mlx5: Enable sniffer when device is in switchdev mode; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: e6ac9f600664, tag: v5.10-rc1;
+Change-Id=I9d1adf6a31760f33db153ee7cf9b53c468426e15; subject=RDMA/mlx5: Fix MR cache memory leak; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: e89938902927, tag: v5.11-rc1;
+Change-Id=I24f105123f9521fd8367c163f7178381fa687cff; subject=RDMA/ipoib: Remove dependency in ALL_MULTI CONFIG; feature=ipoib_genetlink; upstream_status=NA; general=;
+Change-Id=Ifb12a6f132043231ecae7a4fdae7084270b6d4d5; subject=net/mlx5: Fix FTE cleanup; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Iaec9fd22c2dc7bbe2e8c8a2087f4bac3b9bcab21; subject=net/mlx5: Fix request_irqs error flow; feature=rebase; upstream_status=accepted; general=tag: v5.9;
+Change-Id=Ide1ef8b3a87db55da56a891399882b6373f0acef; subject=net/mlx5: Return success for DC trace when device in error flow; feature=mlx5_core_bugs_in_review; upstream_status=in_progress; general=;
+Change-Id=Id77a683cc2312db74433f85e55b0a98baf624527; subject=RDMA/mad: Fix leak when unload IB device in switchdev mode; feature=sa_mad_cc; upstream_status=NA; general=;
+Change-Id=I3b3dff7c0bde42209e3cd366f835fb6acb166ce5; subject=net/mlx5e: Set level 1 to sample flow table; feature=mlx5_asap; upstream_status=in_progress; general=;
+Change-Id=Iabbfbc940f2f5a0dd7dfbdd5e439c2c1db2de810; subject=RDMA/ucma: Fix use after free in destroy id flow; feature=mlx5_ib_bugs; upstream_status=accepted; general=upstream commit ID: c7a198c70076, tag: v5.10;
+Change-Id=I1df6467abf7368b608c066fe8223b70d387293f8; subject=RDMA/mlx5: Fix timestamp default mode; feature=utc; upstream_status=in_progress; general=;
+Change-Id=I436b81c2fa78f804609db17ec076695d56c06c63; subject=net/mlx5: Set QP timestamp mode to default; feature=utc; upstream_status=in_progress; general=;
+Change-Id=I6ebfff7e9d7b226bf7602ddc94576e027d027c94; subject=RDMA/mlx5: Fix drop packet rule in egress table; feature=fs_drop_tx; upstream_status=in_progress; general=;
+Change-Id=I64298825ce010dff8ff34a3491755548acdbee45; subject=RDMA/mlx5: Fix array-index out of bounds when modify DC cnack qp; feature=dc_support; upstream_status=NA; general=;

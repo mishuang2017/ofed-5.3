@@ -1,0 +1,3 @@
+sep=;
+Change-Id=Ie90d56c8c6134b858ac5be51aeafce402ffba90a; subject=net/mlx5: E-switch, Use PF num in metadata reg c0; feature=rebase; upstream_status=ignore; general=tag: v5.10-rc2;
+Change-Id=I4e49be96a9c22f34f017b70d1685301d7c888c5a; subject=net/mlx5: E-switch, Use PF num in metadata reg c0; feature=rebase; upstream_status=accepted; general=upstream commit ID: 7cd7becdddb0, tag: v5.10-rc1;
